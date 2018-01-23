@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="@string/my_profile">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/profile"
+                        android:title="@string/me"
+                        android:icon="@drawable/ic_profile"/>
+                    <item
+                        android:id="@+id/followers"
+                        android:title="@string/followers"
+                        android:icon="@drawable/ic_followers"/>
+                </group>
+            </menu>
+        </item>
+
+        <item android:title="@string/world">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/ranking"
+                        android:title="@string/ranking"
+                        android:icon="@drawable/ic_ranking"/>
+
+                    <item
+                        android:id="@+id/competitions"
+                        android:title="@string/competitions"
+                        android:icon="@drawable/ic_competition"/>
+
+                    <item
+                        android:id="@+id/explore"
+                        android:title="@string/explore"
+                        android:icon="@drawable/ic_explore"/>
+                </group>
+            </menu>
+        </item>
+
+        <item android:title="@string/about">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/settings"
+                        android:title="@string/settings"
+                        android:icon="@drawable/ic_settings"/>
+
+                    <item
+                        android:id="@+id/rate"
+                        android:title="@string/rate_app"
+                        android:icon="@drawable/ic_star_white"/>
+
+                    <item
+                        android:id="@+id/contribute"
+                        android:title="@string/translate_contribute"
+                        android:icon="@drawable/ic_smile"/>
+                </group>
+            </menu>
+
+        </item>
+
+    </group>
+</menu>

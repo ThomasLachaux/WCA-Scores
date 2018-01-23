@@ -1,0 +1,204 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!--
+        Référence:
+            &#160; espace
+            0144: É
+            0200: È
+            0203: Ë
+            0192: À
+    -->
+    <!-- Personal -->
+
+
+    <!-- Activities -->
+
+    <!-- CUBES -->
+    <string name="cube_3x3">Cubo de Rubik</string>
+
+    <!-- Intro -->
+    <string name="intro_slide_1">Bienvenido a WCA Scores, una sencilla aplicación que muestra tus marcas desde la World Cube Association.\nPara comenzar, inicia sesión con tu WCA ID.\nPuedes iniciar sesión más tarde.\nTraducido por Alejandro Fernández Barranco.</string>
+    <string name="intro_slide_2">Obtén tus récords, historial y competiciones en una interfaz sencilla</string>
+    <string name="intro_slide_3">Puedes seguir a otros cuberos para guardar sus resultados sin conexión y mantenerte informado cuando batan sus récords</string>
+
+    <string name="visitor">Visitante</string>
+    <string name="log_in">Iniciar sesión</string>
+
+    <string name="information">Información</string>
+    <string name="info_no_connection">Mientras no hayas iniciado sesión, se mostrarán perfiles de los mejores cuberos.</string>
+    <!-- Records -->
+    <string name="records">Récords</string>
+    <string name="single">Single</string>
+    <string name="average">Media</string>
+    <string name="single_colon">single:</string>
+    <string name="average_colon">media:</string>
+    <string name="single_format">Single %1$s</string>
+    <string name="average_format">Media %1$s</string>
+
+    <string name="record_time">Tiempo: <xliff:g id="time">%1$s</xliff:g></string>
+    <string name="record_nr">Récord nacional</string>
+    <string name="record_nr_format">Récord nacional: <xliff:g id="rank">%1$s</xliff:g></string>
+    <string name="record_cr">Récord continental</string>
+    <string name="record_cr_format">Récord continental: <xliff:g id="rank">%1$s</xliff:g></string>
+    <string name="record_wr">Récord mundial</string>
+    <string name="record_wr_format">Récord mundial: <xliff:g id="rank">%1$s</xliff:g></string>
+    <string name="online">En línea</string>
+
+    <!-- History -->
+    <string name="event">Evento</string>
+    <string name="history">Historial</string>
+    <string name="round">Ronda</string>
+    <string name="best">Mejor tiempo</string>
+
+    <!-- Ranking -->
+    <string name="ranking">Ranking</string>
+    <string name="rank">Posición</string>
+    <string name="person">Persona</string>
+    <string name="result">Resultado</string>
+    <string name="citizen">Procedencia</string>
+    <string name="world">Mundo</string>
+    <string name="two_infos"><xliff:g>%1$s (%2$s)</xliff:g></string>
+    <string name="switch_cube">Cambiar de cubo</string>
+    <string name="switch_country">Cambiar de país</string>
+    <string name="goto_profile_tip">Mantén pulsado para ir a este perfil</string>
+
+    <!-- Followers -->
+    <string name="follow">Seguir</string>
+    <string name="unfollow">Dejar de seguir</string>
+    <string name="followers">Siguiendo</string>
+
+    <!-- Profile -->
+    <string name="me">Yo</string>
+    <string name="profile">Perfil</string>
+    <string name="edit_profile">Cambiar perfil</string>
+    <string name="toast_switch_profile_confirmation">Tu perfil está asignado a nombre de <xliff:g id="name">%1$s</xliff:g></string>
+    <string name="toast_follow_confirmation">Estás siguiendo a <xliff:g id="name">%1$s</xliff:g></string>
+    <string name="toast_unfollow_confirmation">Ya no sigues a <xliff:g id="name">%1$s</xliff:g></string>
+    <string name="dialog_edit_profile_follow_title">Cambiar perfil/Seguir</string>
+    <string name="dialog_edit_profile_follow_message">
+        Puedes:
+        <xliff:g>\n\t-</xliff:g>Seguir a <xliff:g id="name">%1$s</xliff:g> y mantenerte informado si rompe algún récord
+        <xliff:g>\n\t-</xliff:g>Cambiar de perfil y asignar tu perfil personal a nombre de <xliff:g id="name">%1$s</xliff:g>.
+    </string>
+
+    <!-- User -->
+    <string name="gender">Género</string>
+    <string name="male">Hombre</string>
+    <string name="female">Mujer</string>
+    <string name="country">País</string>
+
+    <!-- Competitions -->
+    <string name="competition">Competición</string>
+    <string name="competitions">Competiciones</string>
+
+    <plurals name="in_progress_competitions">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> competición en progreso</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> competiciones en progreso</item>
+    </plurals>
+
+    <plurals name="upcoming_competitions">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> competición futura</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> competiciones futuras</item>
+    </plurals>
+
+    <plurals name="competitions">
+        <item quantity="one">%1$d competición</item>
+        <item quantity="other">%1$d competiciones</item>
+    </plurals>
+
+    <string name="competitions_available_title">¡Competiciones disponibles!</string>
+    <string name="competitions_available_content">¡Competiciones son disponibles! ¿Estás listo a cubar?</string>
+    <!-- Search -->
+    <string name="search">Buscar</string>
+
+    <!-- Errors -->
+    <string name="error_activity">Ninguna aplicación puede llevar a cabo esta acción</string>
+    <string name="error_connection">Por favor, conéctate a Internet</string>
+    <string name="err_loading">Error al cargar<xliff:g>\n\n :-(</xliff:g></string>
+    <string name="error_interpretation_html">Error al interpretar el código HTML</string>
+    <string name="unknown_error">Error desconocido</string>
+    <string name="no_followers">No sigues a nadie</string>
+
+    <!-- Menus -->
+    <string name="settings">Ajustes</string>
+    <string name="my_profile">MI perfil</string>
+    <string name="explore">Explorar</string>
+
+
+    <!-- Préférences -->
+    <string name="licenses">Licencias</string>
+
+    <string name="order">Orden</string>
+    <string name="alphabetical_order">Orden alfabético</string>
+    <string name="chronological_order">Orden cronológico</string>
+
+    <string name="country_summary">Usado solo para verificar las competiciones en tu país</string>
+
+    <!-- Thème -->
+    <string name="theme">Tema</string>
+    <string name="light_dark_theme">Tema claro/oscuro</string>
+    <string name="pref_theme_summary">Elige un tema claro u oscuro</string>
+    <string name="light">Claro</string>
+    <string name="dark">Oscuro</string>
+
+
+    <!-- Check records network -->
+    <string name="pref_check_network_title">Red utilizada para comprobar los récords</string>
+    <string name="pref_check_network_summary">Usa Wi-Fi o Wi-Fi y datos móviles para realizar la verificación</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="wifi_datas">Wi-Fi + Datos móviles</string>
+
+
+    <!-- Check record frequency -->
+    <string name="pref_check_freq_title">Frecuencia de verificación</string>
+    <string name="pref_check_freq_summary">Frecuencia de verificación de los récords, el historial del perfil personal y los seguidores.</string>
+
+    <string name="once_hour">Cada hora</string>
+    <string name="once_day">Cada día</string>
+    <string name="twice_day">Dos veces al día</string>
+    <string name="once_week">Cada semana</string>
+    <string name="twice_week">Dos veces a la semana</string>
+    <string name="never">Nunca</string>
+
+
+    <!-- Reset profile -->
+    <string name="reset_pref_id_title">Resetea tu perfil personal</string>
+    <string name="reset_pref_id_content">¿Resetear tu perfil personal?</string>
+
+
+    <!-- Actions -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancelar</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    <string name="no_thanks">No, gracias</string>
+    <string name="more_info">Más información</string>
+    <string name="share">Compartir</string>
+    <string name="details">Detalles</string>
+    <string name="about">Acerca de</string>
+    <string name="contact">Contáctame</string>
+    <string name="goto_internet">Ver en la página web</string>
+    <string name="toast_adding">Añadiendo</string>
+    <string name="goto_maps">Ver en el mapa</string>
+    <string name="rate_share_app">Valorar/Compartir esta aplicación</string>
+    <string name="rate_app_msg">Si disfrutas usando nuestra aplicación, ¿te importaría tomarte un momento para valorarla o compartirla? No será más de un minuto. ¡Gracias por tu apoyo!</string>
+    <string name="rate">Valorar</string>
+    <string name="rate_app">Valora la aplicación</string>
+    <string name="share_app">Comparte la aplicación</string>
+    <string name="share_app_message">¡Obtén todos tus resultados de la WCA en una aplicación para Android! (<xliff:g>bit.ly/2ismF8A</xliff:g>)</string>
+    <string name="translate_contribute">Traducir/Contribuir</string>
+
+    <!-- Others -->
+    <string name="intro">Introducción</string>
+
+
+    <!-- Notification -->
+
+    <string name="notif_new_event">Récord batido: <xliff:g id="cubes">%1$s</xliff:g></string>
+
+    <string name="notif_share">¡<xliff:g id="user">%1$s</xliff:g> ha batido su récord en <xliff:g id="events">%2$s</xliff:g>!</string>
+
+
+    <string name="string_details_string"><xliff:g id="title">%1$s</xliff:g> (<xliff:g id="content">%2$s</xliff:g>)</string>
+    <string name="string_details_number"><xliff:g id="title">%1$s</xliff:g> (<xliff:g id="number">%2$d</xliff:g>)</string>
+</resources>

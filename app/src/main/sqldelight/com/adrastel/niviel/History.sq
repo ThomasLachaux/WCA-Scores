@@ -1,0 +1,27 @@
+CREATE TABLE history (
+    _id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    follower INTEGER NOT NULL,
+    event TEXT NOT NULL,
+    competition TEXT NOT NULL,
+    round TEXT NOT NULL,
+    place TEXT NOT NULL,
+    best TEXT,
+    average TEXT,
+    result_details TEXT,
+
+    FOREIGN KEY(follower) REFERENCES follower(_id)
+);
+
+delete_table:
+DROP TABLE IF EXISTS history;
+
+select_from_follower:
+SELECT * FROM history WHERE follower = ?;
+
+delete_histories:
+DELETE FROM history WHERE follower = ?;
+
+insert_history:
+INSERT INTO
+    history(follower, event, competition, round, place, best, average, result_details)
+    VALUES(?, ?, ?, ?, ?, ?, ?, ?);

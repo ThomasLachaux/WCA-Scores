@@ -1,0 +1,2466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+    <!-- WARNING: si le nombre de cube change, changer le fichier RankingChooseCubeDialog -->
+    <string-array name="cubes">
+        <item>Rubik\'s cube</item>
+        <item>4x4x4 Cube</item>
+        <item>5x5x5 Cube</item>
+        <item>2x2x2 Cube</item>
+        <item>3x3x3 blindfolded</item>
+        <item>3x3x3 one-handed</item>
+        <item>3x3x3 fewest moves</item>
+        <item>3x3x3 with feet</item>
+        <item>Megaminx</item>
+        <item>Pyraminx</item>
+        <item>Square-1</item>
+        <item>Rubik\'s clock</item>
+        <item>Skewb</item>
+        <item>6x6x6 Cube</item>
+        <item>7x7x7 Cube</item>
+        <item>4x4x4 blindfolded</item>
+        <item>5x5x5 blindfolded</item>
+        <item>3x3x3 multi blind</item>
+    </string-array>
+
+    <!-- Array pour choisir une fréquence de vérification -->
+    <string-array name="pref_check_freq_list">
+        <item>@string/once_hour</item>
+        <item>@string/twice_day</item>
+        <item>@string/once_day</item>
+        <item>@string/twice_week</item>
+        <item>@string/once_week</item>
+        <item>@string/never</item>
+    </string-array>
+
+    <!-- Preference pour changer le thème -->
+    <string-array name="theme_list">
+        <item>@string/light</item>
+        <item>@string/dark</item>
+    </string-array>
+
+    <string-array name="theme_list_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <!-- Preference pour changer le network -->
+    <string-array name="pref_check_network_list">
+        <item>@string/wifi</item>
+        <item>@string/wifi_datas</item>
+    </string-array>
+    <string-array name="pref_check_network_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+
+    <string-array name="pref_check_freq_values" translatable="false">
+        <item>3600000</item><!-- Une fois par heure -->
+        <item>43200000</item><!-- Deux fois par jour -->
+        <item>86400000</item><!-- Une fois par jour -->
+        <item>302400000</item><!-- Deux fois par semaine -->
+        <item>604800000</item><!-- Une fois par semaine -->
+        <item>0</item>
+    </string-array>
+
+    <string-array name="countries">
+        <item>World</item>
+        <item>Africa</item>
+        <item>Asia</item>
+        <item>Europe</item>
+        <item>North America</item>
+        <item>Oceania</item>
+        <item>South America</item>
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Aruba</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Bangladesh</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Belize</item>
+        <item>Bolivia</item>
+        <item>Bosnia and Herzegovina</item>
+        <item>Brazil</item>
+        <item>Bulgaria</item>
+        <item>Canada</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Colombia</item>
+        <item>Costa Rica</item>
+        <item>Cote d\'Ivoire</item>
+        <item>Croatia</item>
+        <item>Cuba</item>
+        <item>Cyprus</item>
+        <item>Czech Republic</item>
+        <item>Denmark</item>
+        <item>Dominican Republic</item>
+        <item>Ecuador</item>
+        <item>Egypt</item>
+        <item>El Salvador</item>
+        <item>Estonia</item>
+        <item>Finland</item>
+        <item>France</item>
+        <item>Georgia</item>
+        <item>Germany</item>
+        <item>Greece</item>
+        <item>Guatemala</item>
+        <item>Haiti</item>
+        <item>Honduras</item>
+        <item>Hong Kong</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Iran</item>
+        <item>Ireland</item>
+        <item>Israel</item>
+        <item>Italy</item>
+        <item>Jamaica</item>
+        <item>Japan</item>
+        <item>Jordan</item>
+        <item>Kazakhstan</item>
+        <item>Korea</item>
+        <item>Kosovo</item>
+        <item>Latvia</item>
+        <item>Lebanon</item>
+        <item>Liechtenstein</item>
+        <item>Lithuania</item>
+        <item>Luxembourg</item>
+        <item>Macau</item>
+        <item>Macedonia</item>
+        <item>Madagascar</item>
+        <item>Malawi</item>
+        <item>Malaysia</item>
+        <item>Mauritius</item>
+        <item>Mexico</item>
+        <item>Moldova</item>
+        <item>Monaco</item>
+        <item>Mongolia</item>
+        <item>Montenegro</item>
+        <item>Morocco</item>
+        <item>Nepal</item>
+        <item>Netherlands</item>
+        <item>New Zealand</item>
+        <item>Nicaragua</item>
+        <item>Nigeria</item>
+        <item>Norway</item>
+        <item>Pakistan</item>
+        <item>Palestine</item>
+        <item>Paraguay</item>
+        <item>Peru</item>
+        <item>Philippines</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Puerto Rico</item>
+        <item>Romania</item>
+        <item>Russia</item>
+        <item>Samoa</item>
+        <item>Saudi Arabia</item>
+        <item>Senegal</item>
+        <item>Serbia</item>
+        <item>Singapore</item>
+        <item>Slovakia</item>
+        <item>Slovenia</item>
+        <item>South Africa</item>
+        <item>Spain</item>
+        <item>Sri Lanka</item>
+        <item>Sudan</item>
+        <item>Suriname</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Syria</item>
+        <item>Taiwan</item>
+        <item>Thailand</item>
+        <item>Trinidad and Tobago</item>
+        <item>Tunisia</item>
+        <item>Turkey</item>
+        <item>Ukraine</item>
+        <item>United Arab Emirates</item>
+        <item>United Kingdom</item>
+        <item>Uruguay</item>
+        <item>USA</item>
+        <item>Uzbekistan</item>
+        <item>Venezuela</item>
+        <item>Vietnam</item>
+        <item>Zambia</item>
+        <item>Zimbabwe</item>
+    </string-array>
+
+    <string-array name="countries_id">
+        <item>World</item>
+        <item>_Africa</item>
+        <item>_Asia</item>
+        <item>_Europe</item>
+        <item>_North+America</item>
+        <item>_Oceania</item>
+        <item>_South+America</item>
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Aruba</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Bangladesh</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Belize</item>
+        <item>Bolivia</item>
+        <item>Bosnia+and+Herzegovina</item>
+        <item>Brazil</item>
+        <item>Bulgaria</item>
+        <item>Canada</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Colombia</item>
+        <item>Costa+Rica</item>
+        <item>Cote+d_Ivoire</item>
+        <item>Croatia</item>
+        <item>Cuba</item>
+        <item>Cyprus</item>
+        <item>Czech+Republic</item>
+        <item>Denmark</item>
+        <item>Dominican+Republic</item>
+        <item>Ecuador</item>
+        <item>Egypt</item>
+        <item>El+Salvador</item>
+        <item>Estonia</item>
+        <item>Finland</item>
+        <item>France</item>
+        <item>Georgia</item>
+        <item>Germany</item>
+        <item>Greece</item>
+        <item>Guatemala</item>
+        <item>Haiti</item>
+        <item>Honduras</item>
+        <item>Hong+Kong</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Iran</item>
+        <item>Ireland</item>
+        <item>Israel</item>
+        <item>Italy</item>
+        <item>Jamaica</item>
+        <item>Japan</item>
+        <item>Jordan</item>
+        <item>Kazakhstan</item>
+        <item>Korea</item>
+        <item>Kosovo</item>
+        <item>Latvia</item>
+        <item>Lebanon</item>
+        <item>Liechtenstein</item>
+        <item>Lithuania</item>
+        <item>Luxembourg</item>
+        <item>Macau</item>
+        <item>Macedonia</item>
+        <item>Madagascar</item>
+        <item>Malawi</item>
+        <item>Malaysia</item>
+        <item>Mauritius</item>
+        <item>Mexico</item>
+        <item>Moldova</item>
+        <item>Monaco</item>
+        <item>Mongolia</item>
+        <item>Montenegro</item>
+        <item>Morocco</item>
+        <item>Nepal</item>
+        <item>Netherlands</item>
+        <item>New+Zealand</item>
+        <item>Nicaragua</item>
+        <item>Nigeria</item>
+        <item>Norway</item>
+        <item>Pakistan</item>
+        <item>Palestine</item>
+        <item>Paraguay</item>
+        <item>Peru</item>
+        <item>Philippines</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Puerto+Rico</item>
+        <item>Romania</item>
+        <item>Russia</item>
+        <item>Samoa</item>
+        <item>Saudi+Arabia</item>
+        <item>Senegal</item>
+        <item>Serbia</item>
+        <item>Singapore</item>
+        <item>Slovakia</item>
+        <item>Slovenia</item>
+        <item>South+Africa</item>
+        <item>Spain</item>
+        <item>Sri+Lanka</item>
+        <item>Sudan</item>
+        <item>Suriname</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Syria</item>
+        <item>Taiwan</item>
+        <item>Thailand</item>
+        <item>Trinidad+and+Tobago</item>
+        <item>Tunisia</item>
+        <item>Turkey</item>
+        <item>Ukraine</item>
+        <item>United+Arab+Emirates</item>
+        <item>United+Kingdom</item>
+        <item>Uruguay</item>
+        <item>USA</item>
+        <item>Uzbekistan</item>
+        <item>Venezuela</item>
+        <item>Vietnam</item>
+        <item>Zambia</item>
+        <item>Zimbabwe</item>
+    </string-array>
+
+    <string-array name="competitions_countries_id">
+        <item>all</item>
+        <item>_Africa</item>
+        <item>_Asia</item>
+        <item>_Europe</item>
+        <item>_North+America</item>
+        <item>_Oceania</item>
+        <item>_South+America</item>
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Aruba</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Bangladesh</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Belize</item>
+        <item>Bolivia</item>
+        <item>Bosnia+and+Herzegovina</item>
+        <item>Brazil</item>
+        <item>Bulgaria</item>
+        <item>Canada</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Colombia</item>
+        <item>Costa+Rica</item>
+        <item>Cote+d_Ivoire</item>
+        <item>Croatia</item>
+        <item>Cuba</item>
+        <item>Cyprus</item>
+        <item>Czech+Republic</item>
+        <item>Denmark</item>
+        <item>Dominican+Republic</item>
+        <item>Ecuador</item>
+        <item>Egypt</item>
+        <item>El+Salvador</item>
+        <item>Estonia</item>
+        <item>Finland</item>
+        <item>France</item>
+        <item>Georgia</item>
+        <item>Germany</item>
+        <item>Greece</item>
+        <item>Guatemala</item>
+        <item>Haiti</item>
+        <item>Honduras</item>
+        <item>Hong+Kong</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Iran</item>
+        <item>Ireland</item>
+        <item>Israel</item>
+        <item>Italy</item>
+        <item>Jamaica</item>
+        <item>Japan</item>
+        <item>Jordan</item>
+        <item>Kazakhstan</item>
+        <item>Korea</item>
+        <item>Kosovo</item>
+        <item>Latvia</item>
+        <item>Lebanon</item>
+        <item>Liechtenstein</item>
+        <item>Lithuania</item>
+        <item>Luxembourg</item>
+        <item>Macau</item>
+        <item>Macedonia</item>
+        <item>Madagascar</item>
+        <item>Malawi</item>
+        <item>Malaysia</item>
+        <item>Mauritius</item>
+        <item>Mexico</item>
+        <item>Moldova</item>
+        <item>Monaco</item>
+        <item>Mongolia</item>
+        <item>Montenegro</item>
+        <item>Morocco</item>
+        <item>Nepal</item>
+        <item>Netherlands</item>
+        <item>New+Zealand</item>
+        <item>Nicaragua</item>
+        <item>Nigeria</item>
+        <item>Norway</item>
+        <item>Pakistan</item>
+        <item>Palestine</item>
+        <item>Paraguay</item>
+        <item>Peru</item>
+        <item>Philippines</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Puerto+Rico</item>
+        <item>Romania</item>
+        <item>Russia</item>
+        <item>Samoa</item>
+        <item>Saudi+Arabia</item>
+        <item>Senegal</item>
+        <item>Serbia</item>
+        <item>Singapore</item>
+        <item>Slovakia</item>
+        <item>Slovenia</item>
+        <item>South+Africa</item>
+        <item>Spain</item>
+        <item>Sri+Lanka</item>
+        <item>Sudan</item>
+        <item>Suriname</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Syria</item>
+        <item>Taiwan</item>
+        <item>Thailand</item>
+        <item>Trinidad+and+Tobago</item>
+        <item>Tunisia</item>
+        <item>Turkey</item>
+        <item>Ukraine</item>
+        <item>United+Arab+Emirates</item>
+        <item>United+Kingdom</item>
+        <item>Uruguay</item>
+        <item>USA</item>
+        <item>Uzbekistan</item>
+        <item>Venezuela</item>
+        <item>Vietnam</item>
+        <item>Zambia</item>
+        <item>Zimbabwe</item>
+    </string-array>
+
+    <string-array name="random_name">
+        <item>Lucas Etter</item>
+        <item>Hyo-Min Seo (서효민)</item>
+        <item>Keaton Ellis</item>
+        <item>Mats Valk</item>
+        <item>Collin Burns</item>
+        <item>Feliks Zemdegs</item>
+        <item>Cornelius Dieckmann</item>
+        <item>Pavan Ravindra</item>
+        <item>Seung Hyuk Nahm (남승혁)</item>
+        <item>Patrick Ponce</item>
+        <item>Bill Wang</item>
+        <item>Kevin Costello III</item>
+        <item>Jiayu Wang (王佳宇)</item>
+        <item>Michał Pleskowicz</item>
+        <item>Ivan Vynnyk (Іван Винник)</item>
+        <item>Hyeon Kyo Kyoung</item>
+        <item>Jayden McNeill</item>
+        <item>Leon Schmidtchen</item>
+        <item>Alexander Lau</item>
+        <item>David Ludwig</item>
+        <item>Drew Brads</item>
+        <item>Arifumi Fushimi (伏見有史)</item>
+        <item>Philipp Weyer</item>
+        <item>Antoine Cantin</item>
+        <item>Staš Zupanc</item>
+        <item>Yumu Tabuchi (田渕雄夢)</item>
+        <item>Yi-Fan Wu (吳亦凡)</item>
+        <item>Sebastian Weyer</item>
+        <item>Tommy Kiprillis</item>
+        <item>Dario Roa Sánchez</item>
+        <item>Kaijun Lin (林恺俊)</item>
+        <item>Alex Johnson</item>
+        <item>Andrew Ricci</item>
+        <item>Asia Konvittayayotin (เอเชีย กรวิทยโยธิน)</item>
+        <item>Dmitry Dobrjakov</item>
+        <item>Blake Thompson</item>
+        <item>Tanzer Balimtas</item>
+        <item>Kai-Wen Wang (王楷文)</item>
+        <item>Mitchell Lane</item>
+        <item>Martin Vædele Egdal</item>
+        <item>Kirt Protacio</item>
+        <item>Igor Ośmiałowski</item>
+        <item>Angelo Giovanni Licetti León</item>
+        <item>Paul Mahvi</item>
+        <item>Jonathan Hamstad</item>
+        <item>Jonah Crosby</item>
+        <item>Rami Sbahi</item>
+        <item>Jakub Kipa</item>
+        <item>Alexandre Carlier</item>
+        <item>Riley Woo</item>
+        <item>Morten Arborg</item>
+        <item>Nathan Soria</item>
+        <item>Juan Pablo Huanqui</item>
+        <item>Kevin Gerhardt</item>
+        <item>Max Park</item>
+        <item>Louis Cormier</item>
+        <item>Anthony Brooks</item>
+        <item>Dylan Miller</item>
+        <item>Marcin Zalewski</item>
+        <item>Antonie Paterakis</item>
+        <item>Phillip Lewicki</item>
+        <item>Przemysław Kaleta</item>
+        <item>Tomoya Iida (飯田朋也)</item>
+        <item>Weixing Zhang (张炜星)</item>
+        <item>Daniel Wallin</item>
+        <item>Jabari Nuruddin</item>
+        <item>Jure Gregorc</item>
+        <item>Valerii Pochtar (Валерій Почтар)</item>
+        <item>Bence Barát</item>
+        <item>John Brechon</item>
+        <item>Michał Marszałek</item>
+        <item>Nipat Charoenpholphant (นิพัฒน์ เจริญพลพันธุ์)</item>
+        <item>Richard Jay S. Apagar</item>
+        <item>Rowe Hessler</item>
+        <item>Yueh-Lin Tsai (蔡岳霖)</item>
+        <item>Eric Limeback</item>
+        <item>Bennet Wichmann</item>
+        <item>Hunor Bózsing</item>
+        <item>Kennan LeJeune</item>
+        <item>Kesava Kirupa</item>
+        <item>Wataru Hashimura (端村航)</item>
+        <item>Andy Denney</item>
+        <item>Sei Sugama (洲鎌星)</item>
+        <item>Ping-Yueh Huang (黃品越)</item>
+        <item>Gavin Wills</item>
+        <item>Vincent Hartanto Utomo</item>
+        <item>Yongting You (尤永庭)</item>
+        <item>Isaac Langer</item>
+        <item>Jr-Wei Jang (張智瑋)</item>
+        <item>Nicola Barbaro</item>
+        <item>Wojciech Knott</item>
+        <item>Breandan Vallance</item>
+        <item>Luke Griesser</item>
+        <item>SeungBeom Cho (조승범)</item>
+        <item>Yi-Heng Lee (李宜衡)</item>
+        <item>Zibo Xu (徐子博)</item>
+        <item>Jules Desjardin</item>
+        <item>Valentin Hoffmann</item>
+        <item>Paolo Moriello</item>
+        <item>Ramón Dersch</item>
+        <item>Rituraj Sohoni</item>
+        <item>Daniel Karnaukh</item>
+        <item>Haowei Fan (樊浩玮)</item>
+        <item>Justin Mallari</item>
+        <item>Kevin Hays</item>
+        <item>Jakub Wojtaszewski</item>
+        <item>Carlos Méndez García-Barroso</item>
+        <item>Pedro Henrique da Silva Roque</item>
+        <item>Edward Lin</item>
+        <item>Kailong Li (李开隆)</item>
+        <item>Christopher Olson</item>
+        <item>Nguyễn Ngọc Thịnh</item>
+        <item>Stephen Adhisaputra</item>
+        <item>Zachary Chan</item>
+        <item>Andy Smith</item>
+        <item>Brandon Huang</item>
+        <item>Kian Mansour</item>
+        <item>Martin Brath</item>
+        <item>Yan-Hung Lai (賴彥宏)</item>
+        <item>Giovanni Contardi</item>
+        <item>Sergey Ryabko</item>
+        <item>Yinghao Wang (王鹰豪)</item>
+        <item>Dmitry Aniskin</item>
+        <item>Patryk Szewczyk</item>
+        <item>Jong-Ho Jeong (정종호)</item>
+        <item>Andy Huang</item>
+        <item>Che-Ting Chu (朱哲廷)</item>
+        <item>Jinseong Kim (김진성)</item>
+        <item>Shane Grogan</item>
+        <item>David Remolina Amórtegui</item>
+        <item>Robert Yau</item>
+        <item>Akash Rupela</item>
+        <item>Yinqin Li (李尹钦)</item>
+        <item>Jialin Zhou</item>
+        <item>Ernesto Gutiérrez Cuba</item>
+        <item>Kim Jokinen</item>
+        <item>Milán Baticz</item>
+        <item>Matěj Mužátko</item>
+        <item>Moritz Patzelt</item>
+        <item>Ishmam Mirza</item>
+        <item>Justin Barber</item>
+        <item>Reinier Schippers</item>
+        <item>Basil Herold</item>
+        <item>Zhouheng Sun (孙舟横)</item>
+        <item>Ciarán Beahan</item>
+        <item>Dana Yi</item>
+        <item>Daniel Wannamaker</item>
+        <item>Elian Beguec</item>
+        <item>Jakub Wolniewicz</item>
+        <item>Victor Colin</item>
+        <item>Yu Nakajima (中島悠)</item>
+        <item>Tomasz Żołnowski</item>
+        <item>Mitsuki Gunji (郡司光貴)</item>
+        <item>SungIn Park</item>
+        <item>Andrey Che</item>
+        <item>Mulun Yin (阴目仑)</item>
+        <item>Paris Dorn</item>
+        <item>Erik Akkersdijk</item>
+        <item>Froilan Enriquez</item>
+        <item>Ivan Lew Yi Wen</item>
+        <item>Denji Cortez Bautista</item>
+        <item>Martin Kraut</item>
+        <item>Matthew Shay</item>
+        <item>Daniil Lee</item>
+        <item>Jiahua Zhang (张家华)</item>
+        <item>Wonder Dygico</item>
+        <item>Pedro Alejandro Condo Tellez</item>
+        <item>Samuel Brenner</item>
+        <item>Henri Gerber</item>
+        <item>Justin Lin</item>
+        <item>Matic Omulec</item>
+        <item>Thompson Clarke</item>
+        <item>Dmitry Dergunov</item>
+        <item>Xiaolin Zeng (曾小林)</item>
+        <item>Andrew Park</item>
+        <item>Tsung-Che Lee (李宗哲)</item>
+        <item>Evan Liu</item>
+        <item>Gabriel Dechichi Barbar</item>
+        <item>Harry Savage</item>
+        <item>Ihor Bilchenko (Ігор Більченко)</item>
+        <item>Francis Wong Jia Yen</item>
+        <item>Mattias Uvesten</item>
+        <item>Vasilis Vasileris</item>
+        <item>Jeong Gi Hong (홍정기)</item>
+        <item>Justin Adsuara</item>
+        <item>Krzysztof Rożałowski</item>
+        <item>Lucas Wesche</item>
+        <item>Rodrigo Paz Vaca</item>
+        <item>Doyul Kim (김도율)</item>
+        <item>Julian Favell</item>
+        <item>Natthaphat Mahtani (ณัฐภัทร จี มาทานี)</item>
+        <item>Björn Korbanka</item>
+        <item>Fyodor Ivanov</item>
+        <item>Lin Chen (陈霖)</item>
+        <item>Mykyta Tytar (Микита Титарь)</item>
+        <item>Kirill Mamonov</item>
+        <item>Artur Kristof</item>
+        <item>Ben Whitmore</item>
+        <item>Dan Cohen</item>
+        <item>Emanuel Rheinert</item>
+        <item>Jan Zych</item>
+        <item>Jiekang Pan (潘杰康)</item>
+        <item>Hao-Zheng Lin (林浩正)</item>
+        <item>Antoine Piau</item>
+        <item>Mateo Tiul</item>
+        <item>Pedro Santos Guimarães</item>
+        <item>Seyyed Mohammad Hossein Fatemi (سید محمد حسین فاطمی)</item>
+        <item>Shaowei Hou (侯少尉)</item>
+        <item>Wilson Alvis</item>
+        <item>Haixu Zhang (张海旭)</item>
+        <item>Ivan Torgashov</item>
+        <item>Jeremy Fleischman</item>
+        <item>Robbie Villarica</item>
+        <item>Sean Belke</item>
+        <item>Thomas Thanhtran</item>
+        <item>Callum Hales-Jepp</item>
+        <item>Ty Marshall</item>
+        <item>David Nguyen</item>
+        <item>Harris Chan</item>
+        <item>Piti Pichedpan (ปิติ พิเชษฐพันธ์)</item>
+        <item>Thanaporn Sichanugrist (ธนพร สิชฌนุกฤษฎ์)</item>
+        <item>Joey Gouly</item>
+        <item>Bhargav Narasimhan</item>
+        <item>Sumi Lee</item>
+        <item>Austin Reed</item>
+        <item>Ilya Tsiareshka</item>
+        <item>Yu Da-Hyun (유다현)</item>
+        <item>Er-Sheng Kuo (郭爾陞)</item>
+        <item>Borja Perez</item>
+        <item>Firstian Fushada</item>
+        <item>Jonathan Tan Wei Xiat</item>
+        <item>Nathan Dwyer</item>
+        <item>Samuel Chiu</item>
+        <item>Zhi Li (李志)</item>
+        <item>Anson Lin</item>
+        <item>Daniel Cano Salgado</item>
+        <item>Dawei Xu (徐大卫)</item>
+        <item>Kanneti Sae Han (คันธ์เนตี แซ่ห่าน)</item>
+        <item>Nick Stanton</item>
+        <item>Rafael Felipe Cordoba</item>
+        <item>Wong Kin Lok (黃健樂)</item>
+        <item>Austin Moore</item>
+        <item>Daniel Rose-Levine</item>
+        <item>Nico Wrodarczyk</item>
+        <item>Ricardo Lutchman</item>
+        <item>Swann Castel</item>
+        <item>Matheus Barbosa de Miranda</item>
+        <item>Shujie Fang (方述杰)</item>
+        <item>Dylan Hughlett</item>
+        <item>Shao-Heng Hung (洪紹恆)</item>
+        <item>Guus de Wit</item>
+        <item>Jakub Kubiak</item>
+        <item>Jonathan Esparaz</item>
+        <item>Timur Frolov</item>
+        <item>Xiaojie Jiang (蒋孝杰)</item>
+        <item>Christian de Sena Fortunato</item>
+        <item>Abdelhak Kaddour</item>
+        <item>Juliette Sébastien</item>
+        <item>Jun Xia (夏骏)</item>
+        <item>Mohammad Sarlaki (محمد سرلکی)</item>
+        <item>Will Newhoff</item>
+        <item>Yu Sajima (佐島優)</item>
+        <item>Carlos Cesar Rodríguez García</item>
+        <item>Long Zhou (周隆)</item>
+        <item>Nikolay Evdokimov</item>
+        <item>I-Hsun Li (李奕勳)</item>
+        <item>James Donahue</item>
+        <item>SeungWook Eun (은승욱)</item>
+        <item>Teo Kai Xiang</item>
+        <item>Vishantak Srikrishna</item>
+        <item>Alexander Eryomin</item>
+        <item>Deven Nadudvari</item>
+        <item>John Carlo Magallon</item>
+        <item>Thomas Valles</item>
+        <item>Yuhei Takagi (高木佑平)</item>
+        <item>Benjamin Christie</item>
+        <item>Kai Su (苏锴)</item>
+        <item>Michał Rzewuski</item>
+        <item>Sergi Sabat</item>
+        <item>Wojciech Szatanowski</item>
+        <item>Zijia Feng (冯子甲)</item>
+        <item>Eva Kato</item>
+        <item>Mariano D\'Imperio</item>
+        <item>Min-Seo Gu (구민서)</item>
+        <item>Qianqian Shao (邵千芊)</item>
+        <item>Sean Saito</item>
+        <item>Ben Yu (虞润川)</item>
+        <item>Ivaylo Tanev</item>
+        <item>Jian Wu (吴建)</item>
+        <item>Tomas Jankauskas</item>
+        <item>Jun-Hyuk Jang</item>
+        <item>Artem Melikian (Артем Мелікян)</item>
+        <item>Carlos Moreno</item>
+        <item>Edoardo Disarò</item>
+        <item>Ryo Ito (伊藤崚)</item>
+        <item>Thom Barlow</item>
+        <item>Jared Stinson</item>
+        <item>Jonatan Kłosko</item>
+        <item>Szymon Malinowski</item>
+        <item>Vladislav Kaminskiy</item>
+        <item>Felipe Rueda Hernández</item>
+        <item>Jan Smarschevski</item>
+        <item>Moses San Pascual</item>
+        <item>Cameron Brown</item>
+        <item>Thomas Schmidt</item>
+        <item>Ravi Fernando</item>
+        <item>Simon Crawford</item>
+        <item>Michael Andres Castillo Lemus</item>
+        <item>Nicolas Gertner</item>
+        <item>Vijay Kishore</item>
+        <item>Muhammad Hariz bin Azizan</item>
+        <item>Chia-Wei Lu (呂家維)</item>
+        <item>Eyal Alfasi</item>
+        <item>Guojie Wang (王国杰)</item>
+        <item>Shunnosuke Takahashi (高橋峻之介)</item>
+        <item>Takumi Yoshida (吉田匠)</item>
+        <item>You Hyeon-Dong (유현동)</item>
+        <item>Anssi Vanhala</item>
+        <item>Bo Li (李博)</item>
+        <item>Daniel Gloppestad Bajer</item>
+        <item>Jakob Gunnarsson</item>
+        <item>Mateusz Śliż</item>
+        <item>James Hamory</item>
+        <item>Marvin Orlando Salguero Pardo</item>
+        <item>Matěj Grohmann</item>
+        <item>Zhao-Zhe Zhong (鍾肇哲)</item>
+        <item>Armin Soleimani (آرمین سلیمانی)</item>
+        <item>Clément Cherblanc</item>
+        <item>Mattia Furlan</item>
+        <item>Rowan Kinneavy</item>
+        <item>Julian David</item>
+        <item>Martin Fronescu</item>
+        <item>Zeqin Chen (陈泽钦)</item>
+        <item>Chardan Jose Valdez Sierra</item>
+        <item>Jorge Leonardo Sánchez Salazar</item>
+        <item>Luis Gerardo Martínez Hernández</item>
+        <item>Maxime Clapié</item>
+        <item>Cameron Stollery</item>
+        <item>Michał Halczuk</item>
+        <item>Victor Chenu</item>
+        <item>Evgeny Akivis</item>
+        <item>Lukas Pohořelický</item>
+        <item>Max Wang</item>
+        <item>Itthikorn Jittaveeroj (อิทธิกร จิตทวีโรจน์)</item>
+        <item>James Molloy</item>
+        <item>Jedrick Remonde</item>
+        <item>Kalina Jakubowska</item>
+        <item>Kuo-Hau Wu (吳國豪)</item>
+        <item>Luke Tycksen</item>
+        <item>Shinichiro Sato (佐藤真一郎)</item>
+        <item>Aldair Coronel Ruíz</item>
+        <item>Jun Doo-Young (전두영)</item>
+        <item>Riccardo Simone</item>
+        <item>Simon Westlund</item>
+        <item>Sumeet Agarwal</item>
+        <item>Tao Yu (喻韬)</item>
+        <item>Kristopher De Asis</item>
+        <item>Reto Bubendorf</item>
+        <item>Xiaoke Xu (徐晓珂)</item>
+        <item>Zailin Ma (马再霖)</item>
+        <item>Anders Bogan</item>
+        <item>Makoto Takaoka (高岡誠)</item>
+        <item>Phillip Espinoza</item>
+        <item>Ramses Amaya</item>
+        <item>Yan Jin (金岩)</item>
+        <item>Raza Ibrahim</item>
+        <item>Zheng Lin (林铮)</item>
+        <item>Evan Ressel</item>
+        <item>Yunsu Nam (남윤수)</item>
+        <item>José Leonardo Chaparro Prieto</item>
+        <item>Letian Hu (胡乐天)</item>
+        <item>Mauricio Coronel Lovera</item>
+        <item>Stefan Huber</item>
+        <item>Syuhei Omura (大村周平)</item>
+        <item>Angel Anampa</item>
+        <item>Hang Li (李航)</item>
+        <item>Timothy Sun</item>
+        <item>Yohei Oka (岡要平)</item>
+        <item>Amod Mathur</item>
+        <item>Bruno Vervoort</item>
+        <item>Dongdong Qu (曲冬冬)</item>
+        <item>Everett Kelly</item>
+        <item>Jacob Hutnyk</item>
+        <item>Karol Zakrzewski</item>
+        <item>Kavin Tangtartharakul</item>
+        <item>Lee Chiang (蔣礪)</item>
+        <item>Shi-Xun Zhou (周世勳)</item>
+        <item>Ignacy Buczek</item>
+        <item>Lev Holub (Лев Голуб)</item>
+        <item>Tim Wong</item>
+        <item>Ankush Hommerich-Dutt</item>
+        <item>Isaac Wappes</item>
+        <item>Yukun Wang (王宇坤)</item>
+        <item>Daniel Cofreces</item>
+        <item>Kim Tae Hyung (김태형)</item>
+        <item>Maksym Zharov (Максим Жаров)</item>
+        <item>Raphaël Pihet</item>
+        <item>Tomasz Cyrklaff</item>
+        <item>Adrian Jorghy</item>
+        <item>Alex Koroglu</item>
+        <item>Harald Stiff</item>
+        <item>Jiejie Du (杜杰杰)</item>
+        <item>Maciej Czapiewski</item>
+        <item>Mayron Blain</item>
+        <item>Nithin Babu</item>
+        <item>Xuming Wang (王旭明)</item>
+        <item>Fabiano Pinheiro de Oliveira</item>
+        <item>Oliver Fritz</item>
+        <item>Vladislav Shavelskiy</item>
+        <item>Florian Truckenthanner</item>
+        <item>Ho Yeon Jang (장호연)</item>
+        <item>Jorge Castillo Matas</item>
+        <item>Lee Poon Kit (李本杰)</item>
+        <item>Łukasz Burliga</item>
+        <item>Massimiliano Iovane</item>
+        <item>Piotr Tokarski</item>
+        <item>Emilien Fabre</item>
+        <item>Erik Johnson</item>
+        <item>Sinpei Araki (荒木慎平)</item>
+        <item>Ujjawal Pabreja</item>
+        <item>Rasmus Stub Detlefsen</item>
+        <item>Tommy Szeliga</item>
+        <item>Davide Merli</item>
+        <item>Leopoldo Andrés Ibarra Fuentes</item>
+        <item>Ryan Przybocki</item>
+        <item>Andréa Di Maria</item>
+        <item>Chia-Leo Lin (林珈樂)</item>
+        <item>Dan Selzer</item>
+        <item>Jeff Park</item>
+        <item>Joe Nowak</item>
+        <item>Maksim Vorobyev</item>
+        <item>Trenton Beatty</item>
+        <item>Fabio Schwandt</item>
+        <item>Kévin Cagnon</item>
+        <item>Walker Welch</item>
+        <item>Ying-Tse Chuang (莊英澤)</item>
+        <item>Alessandro Manopulo</item>
+        <item>Isaac Wong Chang Man</item>
+        <item>Maarten Smit</item>
+        <item>Samantha Raskind</item>
+        <item>Yu Byeong-Seon (유병선)</item>
+        <item>Bartłomiej Owczarek</item>
+        <item>José Cruz Lara Rojas</item>
+        <item>Linus Rieß</item>
+        <item>Yusheng Du (杜宇生)</item>
+        <item>Brandon Delacruz</item>
+        <item>Mharr Justhinne Ampong</item>
+        <item>Muhammad Jihan Khalilurrahman</item>
+        <item>Patrick Hetco</item>
+        <item>Baramee Pookcharoen (บารมี พุกเจริญ)</item>
+        <item>Ilya Anishchenko</item>
+        <item>Nathaniel Berg</item>
+        <item>Robin Tschümperlin</item>
+        <item>Ainesh Sevellaraja</item>
+        <item>Aryan Chhabra</item>
+        <item>Daniel Castellanos Cruz</item>
+        <item>Israel Machado Soares</item>
+        <item>James Olarte</item>
+        <item>Lucas Garron</item>
+        <item>Suchakree Ladavarn (สุชาครีย์ ลดาวรรษ์)</item>
+        <item>Vincent Jovian</item>
+        <item>Ali Atashi (علی آتشی)</item>
+        <item>Bartłomiej Zięba</item>
+        <item>Cezary Rokita</item>
+        <item>Kabyanil Talukdar</item>
+        <item>Logan McGraw</item>
+        <item>Ray Vince Ong</item>
+        <item>Shuto Ueno (上野柊斗)</item>
+        <item>Enmeng Zhang (张恩萌)</item>
+        <item>Sripad Sarma Katrapati</item>
+        <item>Christian Houghton</item>
+        <item>Peerawich Hiranpaphakorn (พีรวิชญ์ พิรัญปภากร)</item>
+        <item>Yongan Liu (刘永安)</item>
+        <item>Yulian Kaplyuk (Юліан Каплюк)</item>
+        <item>Andrii Bolibok (Андрій Болібок)</item>
+        <item>Brock Hamann</item>
+        <item>Hampus Hellqvist</item>
+        <item>Kyyarkhan Nikolaev</item>
+        <item>Liam Chen</item>
+        <item>Oscar Nieto</item>
+        <item>Justin Jaffray</item>
+        <item>Pavel Yushkevich</item>
+        <item>Weston Mizumoto</item>
+        <item>Howard Wong Jun Yen (黄俊仁)</item>
+        <item>Jarvis Jin</item>
+        <item>Jose Angel Montesa Solaz</item>
+        <item>Joshua Meriño</item>
+        <item>Lasse Korbanka</item>
+        <item>Miłosz Gdula</item>
+        <item>Muhammad Belva Ababil</item>
+        <item>Shiqi Peng (彭世奇)</item>
+        <item>Henry Hughes</item>
+        <item>Congbiao Jiang (蒋丛骉)</item>
+        <item>Đinh Minh Thông</item>
+        <item>Moritz Karl</item>
+        <item>Tomoya Firman</item>
+        <item>Tomoya Yamashita (山下智也)</item>
+        <item>Dmitry Zvyagintsev</item>
+        <item>Jiaxi Wang (王嘉熙)</item>
+        <item>Rasmus Andersson</item>
+        <item>Andy Tsao</item>
+        <item>Felipe Medel</item>
+        <item>Haichuan Du (杜海川)</item>
+        <item>Parker Powell</item>
+        <item>Peter Chau</item>
+        <item>Amos Tay Swee Hui</item>
+        <item>Chris Foster</item>
+        <item>John Tamanas</item>
+        <item>Sameer Mahmood</item>
+        <item>Weihan Zhang (张巍瀚)</item>
+        <item>Tairan Zhong (钟泰然)</item>
+        <item>Dong-Hyun Kim (김동현)</item>
+        <item>Katie Hull</item>
+        <item>Ryosuke Higo (肥後亮佑)</item>
+        <item>Sheng Cao (曹晟)</item>
+        <item>Edoardo Annesi</item>
+        <item>Emilis Dolgov</item>
+        <item>Francisco Hamlin</item>
+        <item>Joel Ulin</item>
+        <item>Sungho Hong (홍성호)</item>
+        <item>Yifei Chen (陈奕霏)</item>
+        <item>Carlos Carneros Torner</item>
+        <item>Jakob Kogler</item>
+        <item>Pei Pan (潘霈)</item>
+        <item>Bohdan Yaryha (Богдан Ярига)</item>
+        <item>David Hoar</item>
+        <item>Ray Bai</item>
+        <item>Dylan Cook</item>
+        <item>Maximilian Neitzel</item>
+        <item>Nguyễn Quang Trung</item>
+        <item>Nurym Kudaibergen</item>
+        <item>Renz Alexander Lumban</item>
+        <item>Sebastiano Tronto</item>
+        <item>Valerii Kolesnichenko (Валерій Колесніченко)</item>
+        <item>Yota Ueda (上田陽太)</item>
+        <item>Zhangning He (何樟宁)</item>
+        <item>Artem Ganzha</item>
+        <item>Filip Pasławski</item>
+        <item>Mateusz Fydrych</item>
+        <item>Anish Rajesh</item>
+        <item>Kevin Zeng</item>
+        <item>Lars Tschümperlin</item>
+        <item>Noah Simcox</item>
+        <item>Zonghao Zhang (张宗灏)</item>
+        <item>Adam Polkowski</item>
+        <item>Adrian Walkowiak</item>
+        <item>Aryan Kejriwal</item>
+        <item>Daniel Jamrużka</item>
+        <item>Kittikorn Tangsucharitthum (กิตติกร ตั้งสุจริตธรรม)</item>
+        <item>Pavel Galaktionov</item>
+        <item>Josué Dell\'Orto Gottardi</item>
+        <item>Shonathon Collins</item>
+        <item>Sophie Chan</item>
+        <item>Canxing Zhang (张灿星)</item>
+        <item>Daniel Gracia Ortiz</item>
+        <item>Fakhri Raihaan</item>
+        <item>Hendry Cahyadi</item>
+        <item>Lester Doyugan Jr.</item>
+        <item>Lorenzo Vigani Poli</item>
+        <item>Sebastian Werb</item>
+        <item>Simon Lim</item>
+        <item>Xin Shi (石欣)</item>
+        <item>Qingbin Chen (陈庆斌)</item>
+        <item>Tommaso Zoffoli</item>
+        <item>Alex Thielemier</item>
+        <item>DongHwan Lim (임동환)</item>
+        <item>Jae Yong Lee (이재용)</item>
+        <item>Matthew Rich</item>
+        <item>Espen Brokvam</item>
+        <item>Theodore Chow</item>
+        <item>Andrew Sopchak</item>
+        <item>Billy Palaiologos</item>
+        <item>Israel Fraga da Silva</item>
+        <item>Jay Benedict Alfaras</item>
+        <item>Mike Kotch</item>
+        <item>Zach Goldman</item>
+        <item>Eduardo Gutiérrez Cuba</item>
+        <item>Henry Helmuth</item>
+        <item>Igor Kowalczyk</item>
+        <item>Louis Sarthou</item>
+        <item>Adam Walker</item>
+        <item>David Vos</item>
+        <item>Derek Tat</item>
+        <item>Irina Drobitjko</item>
+        <item>Michael Young</item>
+        <item>Sergey Klyakhandler</item>
+        <item>Timo Ludwig</item>
+        <item>Wenjie Zhou (周文杰)</item>
+        <item>Andrew Bae</item>
+        <item>Keita Nomura (野村啓太)</item>
+        <item>Lorenzo Bonoan</item>
+        <item>Piotr Tomczyk</item>
+        <item>Sydney Weaver</item>
+        <item>Viktor Stepanovich</item>
+        <item>Emily Wang</item>
+        <item>Ivan Li Ka Leong (李嘉亮)</item>
+        <item>Maggie Jordan</item>
+        <item>Daiki Matsumoto (松本大輝)</item>
+        <item>Haibo Sui (隋海波)</item>
+        <item>Dominik Pankros</item>
+        <item>Oscar Fernando Hernandez Reyes</item>
+        <item>Carlos Alberto de Alcântara Jr</item>
+        <item>Dan Dzoan</item>
+        <item>Erick Tian</item>
+        <item>Gunnar Krig</item>
+        <item>José Miguel Lanz Mendoza</item>
+        <item>Karl Dickon Terez</item>
+        <item>Łukasz Gębicz</item>
+        <item>Maksym Yeli (Максим Єлі)</item>
+        <item>Renhard Julindra</item>
+        <item>Richmond Mico Rigor</item>
+        <item>Simon Kalhofer</item>
+        <item>Alexander Botz</item>
+        <item>Christopher Yen</item>
+        <item>Damon Goddard</item>
+        <item>Gabriele De Matteis</item>
+        <item>Josh Flagg</item>
+        <item>Shunsuke Okuyama (奥山駿介)</item>
+        <item>Stephen Christopher Suba</item>
+        <item>Zihang Lin (林子杭)</item>
+        <item>Anyu Zhang (张安宇)</item>
+        <item>Brian Johnson</item>
+        <item>Faris Adilah Zakaria</item>
+        <item>Haojiang Zou (邹昊江)</item>
+        <item>Joey Stahl</item>
+        <item>Seungjin Kwon (권승진)</item>
+        <item>Viktor Kalmar</item>
+        <item>Daniel Goodman</item>
+        <item>Dharmesh Shahu</item>
+        <item>GyeongTae Park (박경태)</item>
+        <item>Michael Yoo Fatemi</item>
+        <item>Ray Leung Ka Ho (梁家浩)</item>
+        <item>Yoo Seong-Min (유성민)</item>
+        <item>Andre Febrianto Jonathan</item>
+        <item>Chung-Han Hsu (許鍾瀚)</item>
+        <item>Jingzheng Wang (王景正)</item>
+        <item>Kobe Balin</item>
+        <item>Quinten Andelhofs</item>
+        <item>Vince Ivan Minez</item>
+        <item>Abhay Agarwal</item>
+        <item>Jia-Chuan Chang (張家銓)</item>
+        <item>Kamil Fiedoruk</item>
+        <item>Kevin Zerzes Sapo</item>
+        <item>Rémi Esturoune</item>
+        <item>Rizki Akbari Utama</item>
+        <item>Rushil Dalal</item>
+        <item>Thomas Kohann</item>
+        <item>Asato Irifune (入船朝斗)</item>
+        <item>Filip Miazek</item>
+        <item>Hunor Mogyorósi</item>
+        <item>Johan Svensson</item>
+        <item>Pranav Raaghav</item>
+        <item>Vincent Wong</item>
+        <item>David Buzgo</item>
+        <item>Eric Hess</item>
+        <item>Haowei Wu (吴浩巍)</item>
+        <item>Meng Wang (王猛)</item>
+        <item>Nicolas Sanchez</item>
+        <item>Giulio Grammatica</item>
+        <item>Ian Bourn</item>
+        <item>Michael Röhrer</item>
+        <item>Salamon Tűzkő</item>
+        <item>Stefano Bevacqua</item>
+        <item>Andrew Libby</item>
+        <item>Georgy Vershinin</item>
+        <item>Henrik Buus Aagaard</item>
+        <item>John Robert Anguluan</item>
+        <item>Tanish Saxena</item>
+        <item>Christopher Chi</item>
+        <item>Diego Bojunga Meneghetti</item>
+        <item>Nguyen Huu Quy</item>
+        <item>Pratham Waghmare</item>
+        <item>Wanting Cao (曹宛婷)</item>
+        <item>Xingye Zhu (朱星晔)</item>
+        <item>Jialong Liu (刘嘉龙)</item>
+        <item>Joar Mellström</item>
+        <item>Nguyễn Bảo Ngân</item>
+        <item>Shotaro Makisumi (牧角章太郎)</item>
+        <item>Trần Văn Thanh Tùng</item>
+        <item>Zihan Zhang (张子涵)</item>
+        <item>Changshuo Zhang (张畅铄)</item>
+        <item>David Woner</item>
+        <item>Krish Shah-Nathwani</item>
+        <item>Rostyslav Litvinov (Ростислав Літвінов)</item>
+        <item>William Boards</item>
+        <item>Andrew Verducci</item>
+        <item>Habin Kim (김하빈)</item>
+        <item>Jonas Lippert</item>
+        <item>Lang Yuan (袁朗)</item>
+        <item>Yang Li (李扬)</item>
+        <item>Alaik Bhatia</item>
+        <item>Ansuman Somasundaram</item>
+        <item>Daniel Chan</item>
+        <item>Jungwoo Kim</item>
+        <item>Lucas Ichiro Yunomae</item>
+        <item>Nick Rech</item>
+        <item>William Tao</item>
+        <item>Yue Shen (沈樾)</item>
+        <item>Artem Yashkov</item>
+        <item>Blake Feero</item>
+        <item>Felipe Dias Ferreira</item>
+        <item>Isaiah Hopkins</item>
+        <item>Wei Wang (王炜)</item>
+        <item>Alessandro Nicolì</item>
+        <item>Anukun Supcharoenkun (อนุกูล ทรัพย์เจริญกุล)</item>
+        <item>Daryl Tan Hong An</item>
+        <item>Ethan Crislip</item>
+        <item>Luke Burong</item>
+        <item>Rares Bostan</item>
+        <item>Valentin Ardaillon</item>
+        <item>Vincent Sheu</item>
+        <item>Xiaobo Jin (金晓波)</item>
+        <item>Xingyu Chen (陈星宇)</item>
+        <item>James Hildreth</item>
+        <item>Juan Pablo Silvera Prieto</item>
+        <item>Máté Berecz</item>
+        <item>Renaldo Sanjaya</item>
+        <item>Srish Udayakumar</item>
+        <item>Zhiwei Lin (林智玮)</item>
+        <item>Bo Wang (王擘)</item>
+        <item>Daniel Song</item>
+        <item>Esukhei Bat-Erdene (Есүхэй)</item>
+        <item>Joshua Broderick Phillips</item>
+        <item>Keshav Raja</item>
+        <item>Mahith Bandi</item>
+        <item>Stefan Stoiber</item>
+        <item>Eder Olivencia Gonzalez</item>
+        <item>Jerich Lee (李再圆)</item>
+        <item>Kengo Kageyama (蔭山賢吾)</item>
+        <item>Robert Clarke</item>
+        <item>Ting Sheng Bao Yang</item>
+        <item>Zhiyang Chen (陈至扬)</item>
+        <item>Angelo Zhang</item>
+        <item>Diego Garrido</item>
+        <item>Đoàn Văn Danh</item>
+        <item>Marcel Peters</item>
+        <item>Oscar Roth Andersen</item>
+        <item>Oskar Åsbrink</item>
+        <item>Pablo Aguilar Dominguez</item>
+        <item>Shivam Bansal</item>
+        <item>Andro Petrinjak</item>
+        <item>Cale Schoon</item>
+        <item>Jacky Koo Chun Ki (顧俊祺)</item>
+        <item>Jai Gambhir</item>
+        <item>Micha Zahnd</item>
+        <item>Rakesh M Vaideeswaran</item>
+        <item>Róbert Maróti</item>
+        <item>Allison Li</item>
+        <item>Brúnó Bereczki</item>
+        <item>Jason Bilgrei</item>
+        <item>Mitchell Fariss</item>
+        <item>Trần Thanh Phong</item>
+        <item>Yonghua Xie (解永华)</item>
+        <item>Arnold Christian Reyes</item>
+        <item>Daniel Sheppard</item>
+        <item>Alexey Adamov</item>
+        <item>Arlo Sims</item>
+        <item>Atsuto Takemura (竹村篤人)</item>
+        <item>Mattias Claesson</item>
+        <item>Waris Ali</item>
+        <item>Will Callan</item>
+        <item>Guanchen Zhou (周冠辰)</item>
+        <item>Mikołaj Zubowicz</item>
+        <item>Bálint Bodor</item>
+        <item>Filippo Brancaleoni</item>
+        <item>Justin Thomas</item>
+        <item>Martias Try Wardhana</item>
+        <item>Abbe Hansen</item>
+        <item>Alfrisa Diva Wandana</item>
+        <item>Benjamin Wong</item>
+        <item>Bernard Solomon</item>
+        <item>Bertalan Bodor</item>
+        <item>Blaž Dobravec</item>
+        <item>Dương Hữu Khang</item>
+        <item>Edouard Chambon</item>
+        <item>Kevin Matthews</item>
+        <item>Marcin Stachura</item>
+        <item>Patricia Li</item>
+        <item>Simon Blanchard</item>
+        <item>Aramayis Adloyan (Արամայիս Ադլոյան)</item>
+        <item>Deni Mintsaev</item>
+        <item>Giovanny Cano Leal</item>
+        <item>Mohammad Reza Karimi (محمد رضا کریمی)</item>
+        <item>Xi Zhang (张希)</item>
+        <item>Yicheng Bao (包亦成)</item>
+        <item>Corey Sakowski</item>
+        <item>Durben Joun Virtucio</item>
+        <item>Fabian Simon</item>
+        <item>Hong Tan Lam</item>
+        <item>Jonathan Rujel Lozano</item>
+        <item>Juan Antonio Miranda Zùñiga</item>
+        <item>Takayuki Ookusa (大艸尊之)</item>
+        <item>Tomohiro Kobayashi (小林知広)</item>
+        <item>Yi Seung-Woo (이승우)</item>
+        <item>Alexandre de Siqueira Júnior</item>
+        <item>Anthony Dominquez</item>
+        <item>Jonathan Mauroy</item>
+        <item>Oleksii Padalko (Олексій Падалко)</item>
+        <item>Pei-Yin Tien (田沛茵)</item>
+        <item>Radityo Yunus Utomo Wicaksono</item>
+        <item>Alberto Pérez de Rada Fiol</item>
+        <item>Daniel Maienshein</item>
+        <item>Eli Lifland</item>
+        <item>Kevin Zhou</item>
+        <item>Alexander Springhorn</item>
+        <item>Edward Vakula</item>
+        <item>Freddy Fernández Córdova</item>
+        <item>Ganghui Lin (林刚辉)</item>
+        <item>Jack Manuel</item>
+        <item>Olivér Perge</item>
+        <item>Ron van Bruchem</item>
+        <item>Tim Schädel</item>
+        <item>Alejandro Romero</item>
+        <item>Chan Hong Lik</item>
+        <item>Chengbiao Liu (刘承彪)</item>
+        <item>Farras Ahmad Fajari</item>
+        <item>Francisco Cabral de Jesus</item>
+        <item>Henry Savich</item>
+        <item>Ling Qin (秦岭)</item>
+        <item>Manuel Bühler</item>
+        <item>Nobuaki Suga (菅信昭)</item>
+        <item>Tiffany Chien</item>
+        <item>Tomáš Novotný</item>
+        <item>Yan-Jou Lin (林彥州)</item>
+        <item>Tamás Góg</item>
+        <item>Linus Fresz</item>
+        <item>Marcin Bloch</item>
+        <item>Patryk Zawieja</item>
+        <item>Andrea Lo Sardo</item>
+        <item>Francisco Javier Lemes Sáez</item>
+        <item>SeokJun Moon</item>
+        <item>Vineethsubbu Somasundaram</item>
+        <item>Zixi Yan (严子希)</item>
+        <item>Samuel Fang</item>
+        <item>Sang Uk Park (박상욱)</item>
+        <item>Wong Chong Wen</item>
+        <item>Ali Dadfar (علی دادفر)</item>
+        <item>Anders Berggren</item>
+        <item>Fangrui Zeng (曾方锐)</item>
+        <item>Hippolyte Moreau</item>
+        <item>Maximilian Deimel</item>
+        <item>Rustam Valeev</item>
+        <item>Tomek Bogdanik</item>
+        <item>Adrián Martínez Macías</item>
+        <item>Anthony Lafourcade</item>
+        <item>Chun-Hsien Wu (吳俊賢)</item>
+        <item>Jan Bentlage</item>
+        <item>Kim Roger Høyland Larsen</item>
+        <item>Neel Shah</item>
+        <item>Shenjia Zhang (张砷镓)</item>
+        <item>Shoichi Ishikawa (石川翔一)</item>
+        <item>Shu-Yii Luo (駱書翊)</item>
+        <item>Sirish Nutakki</item>
+        <item>Theo Mayer</item>
+        <item>Andres Flügel</item>
+        <item>Dalton Nichols</item>
+        <item>Emil Schwarz</item>
+        <item>Kamil Pieczka</item>
+        <item>Max Xiong</item>
+        <item>Michał Krasowski</item>
+        <item>Roberto Bentivoglio</item>
+        <item>Vladyslav Zhyhailo (Владислав Жигайло)</item>
+        <item>Andrew Nathenson</item>
+        <item>Fardin Bahadory Nejad (فردین بهادری نژاد)</item>
+        <item>Heribertus Ariando</item>
+        <item>Jeremy Collins</item>
+        <item>Joaquin Ignacio Mayta Galindo</item>
+        <item>Muhammad Zhafran Al-Allam</item>
+        <item>Piotr Kózka</item>
+        <item>Tobias Peter</item>
+        <item>Aaron Abramowitz</item>
+        <item>Dominik Vidaković</item>
+        <item>Guan Ying Chen (陳冠穎)</item>
+        <item>Jay Dhiru</item>
+        <item>Philippe Virouleau</item>
+        <item>Rafael Rodriguez Santana</item>
+        <item>Samuel Adrián Pérez Loya</item>
+        <item>Xavier Antonio Balderrama</item>
+        <item>AJ Blair</item>
+        <item>Alexey Zharikov</item>
+        <item>Arvind Tatiparti</item>
+        <item>Bobby D\'Angelo</item>
+        <item>Di Fan (樊迪)</item>
+        <item>Domen Antlej</item>
+        <item>Meng\'an Pu (浦梦安)</item>
+        <item>Torbin Kittleson</item>
+        <item>Will Hamilton</item>
+        <item>Fabian Auroux</item>
+        <item>Finn Ickler</item>
+        <item>Nathan Azaria</item>
+        <item>Ștefan Darius Iordache</item>
+        <item>Weragone Yimwilai (วีรากร ยิ้มวิลัย)</item>
+        <item>Yann Droy</item>
+        <item>Alexey Polyashov</item>
+        <item>Antonio López</item>
+        <item>Balázs Berta</item>
+        <item>Isaac Lai</item>
+        <item>Luke Hudlass-Galley</item>
+        <item>Michael Wittwer</item>
+        <item>Simon Lai</item>
+        <item>Yannick Richter</item>
+        <item>Yongjun Dan</item>
+        <item>Dmitry Kryuzban</item>
+        <item>Leo Guernion</item>
+        <item>Hoàng Minh Giang</item>
+        <item>Josué Esteban Bacilio Chicoma</item>
+        <item>Jules Manalang</item>
+        <item>Leong Wing Sik</item>
+        <item>Nathaniel Knopf</item>
+        <item>Semen Gridnev</item>
+        <item>Tim Reynolds</item>
+        <item>Zhanaidar Uzakov</item>
+        <item>Abhijeet Ghodgaonkar</item>
+        <item>Alex Asbery</item>
+        <item>Andrés Claros</item>
+        <item>Balázs Bernát</item>
+        <item>Evgeny Sharov</item>
+        <item>José Garrido</item>
+        <item>Kevin Ruiz</item>
+        <item>Sam Myung</item>
+        <item>Andreas Gröbmayr</item>
+        <item>Ethan Vovan</item>
+        <item>Foo Yan Xiu</item>
+        <item>Ilham Chairil Azhar</item>
+        <item>Michael Gottlieb</item>
+        <item>Nat Baylon</item>
+        <item>Shemara Van Kuijck</item>
+        <item>Thapapol Dantrakul (ฐปพล ด่านตระกูล)</item>
+        <item>Philipp Roth</item>
+        <item>Xiaowei Wang (王晓伟)</item>
+        <item>Artem Alieksieiev (Артем Алєксєєв)</item>
+        <item>Bintang Kurnia Putra</item>
+        <item>Chau Ka Wai (周嘉偉)</item>
+        <item>Daniel Mazurek</item>
+        <item>Lochie Green</item>
+        <item>Ramble Tandar</item>
+        <item>Richard Delacoste</item>
+        <item>Sooho Lee (이수호)</item>
+        <item>Adam Glendye</item>
+        <item>Alexandre Key Wakate Teruya</item>
+        <item>Andrew Kang</item>
+        <item>Casey Chipman</item>
+        <item>Chio Wai Cheng (趙偉程)</item>
+        <item>Dmitry Choklya</item>
+        <item>Filip Hrnko</item>
+        <item>Fubo Wang (王富博)</item>
+        <item>Piotr Frankowski</item>
+        <item>Taewon Hwang (황태원)</item>
+        <item>Takuma Shirahase (白波瀬拓磨)</item>
+        <item>Ticiano Vilardi</item>
+        <item>Filip Hrnko</item>
+        <item>Fubo Wang (王富博)</item>
+        <item>Piotr Frankowski</item>
+        <item>Taewon Hwang (황태원)</item>
+        <item>Takuma Shirahase (白波瀬拓磨)</item>
+        <item>Ticiano Vilardi</item>
+        <item>Zhenchuan Wang (王震川)</item>
+        <item>Afonso Carapeto</item>
+        <item>Andrew Xie</item>
+        <item>Nicholas Chiapputo</item>
+        <item>Niko Ronkainen</item>
+        <item>Samuel Asafe Ludugel Fagundes</item>
+        <item>Szymon Jeziorski</item>
+        <item>Volodymyr Korol (Володимир Король)</item>
+        <item>Yifan Meng (孟一凡)</item>
+        <item>Azhar Virani</item>
+        <item>Henry Jade</item>
+        <item>Jeremi Niedziela</item>
+        <item>Jiacheng Peng (彭家诚)</item>
+        <item>Julen Simón Iriarte</item>
+        <item>Karina Grandjean Beck</item>
+        <item>Måns Tangvald</item>
+        <item>Phil Yu</item>
+        <item>Shintaro Nishijo</item>
+        <item>Tianzhao Jiang (姜天兆)</item>
+        <item>Tomoyuki Hiraide (平出智之)</item>
+        <item>Vinzbrylle Navales</item>
+        <item>Duy Khuu</item>
+        <item>Dylan Wang</item>
+        <item>Emilio Ramírez</item>
+        <item>Hardik Sood</item>
+        <item>Yiran Lin (林懿然)</item>
+        <item>Anatoly Kim</item>
+        <item>Ben Marlin</item>
+        <item>Joseph Lee</item>
+        <item>Linqi Xu (徐琳淇)</item>
+        <item>Matthew Lowe</item>
+        <item>Oscar Alberto Ceballos Contreras</item>
+        <item>Ryan Jew</item>
+        <item>Vladimir Korovin</item>
+        <item>Xiaobin Rui (芮晓彬)</item>
+        <item>Aria Zolfaghari</item>
+        <item>Bautista Bonazzola</item>
+        <item>Brandon Mikel</item>
+        <item>Cédric Van Huffelen</item>
+        <item>Christian Foyle</item>
+        <item>Daniel Waldo</item>
+        <item>Haixin Yang (杨海鑫)</item>
+        <item>Thada Phuenghua (ธาดา พึ่งฮั้ว)</item>
+        <item>Farzad Karimi (فرزاد کریمی)</item>
+    </string-array>
+
+    <string-array name="random_wca_id">
+        <item>2011ETTE01</item>
+        <item>2013SEOH01</item>
+        <item>2012ELLI01</item>
+        <item>2007VALK01</item>
+        <item>2010BURN01</item>
+        <item>2009ZEMD01</item>
+        <item>2009DIEC01</item>
+        <item>2013RAVI06</item>
+        <item>2013NAHM01</item>
+        <item>2012PONC02</item>
+        <item>2010WANG68</item>
+        <item>2012COST01</item>
+        <item>2010WANG53</item>
+        <item>2009PLES01</item>
+        <item>2010VYNN01</item>
+        <item>2013KYOU01</item>
+        <item>2012MCNE01</item>
+        <item>2010SCHM01</item>
+        <item>2011LAUA01</item>
+        <item>2013LUDW01</item>
+        <item>2010BRAD01</item>
+        <item>2009FUSH01</item>
+        <item>2010WEYE01</item>
+        <item>2010CANT02</item>
+        <item>2014ZUPA01</item>
+        <item>2006TABU02</item>
+        <item>2010WUIF01</item>
+        <item>2010WEYE02</item>
+        <item>2014KIPR01</item>
+        <item>2011SANC02</item>
+        <item>2013LINK01</item>
+        <item>2014JOHN04</item>
+        <item>2010RICC02</item>
+        <item>2009KONV01</item>
+        <item>2011DOBR01</item>
+        <item>2010THOM03</item>
+        <item>2013BALI01</item>
+        <item>2015WANG09</item>
+        <item>2010LANE02</item>
+        <item>2013EGDA02</item>
+        <item>2010PROT01</item>
+        <item>2014OMIA01</item>
+        <item>2013LEON05</item>
+        <item>2012MAHV01</item>
+        <item>2011HAMS01</item>
+        <item>2012CROS01</item>
+        <item>2011SBAH01</item>
+        <item>2010KIPA01</item>
+        <item>2012CARL03</item>
+        <item>2007WOOR01</item>
+        <item>2010ARBO01</item>
+        <item>2012SORI01</item>
+        <item>2013HUAN30</item>
+        <item>2013GERH01</item>
+        <item>2012PARK03</item>
+        <item>2010CORM02</item>
+        <item>2008SEAR01</item>
+        <item>2015MILL01</item>
+        <item>2011ZALE02</item>
+        <item>2012PATE01</item>
+        <item>2012LEWI01</item>
+        <item>2012KALE01</item>
+        <item>2011IIDA01</item>
+        <item>2009ZHAN53</item>
+        <item>2013WALL03</item>
+        <item>2014NURU01</item>
+        <item>2010GREG01</item>
+        <item>2013POCH01</item>
+        <item>2008BARA01</item>
+        <item>2010BREC01</item>
+        <item>2013MARS02</item>
+        <item>2009CHAR03</item>
+        <item>2010APAG01</item>
+        <item>2007HESS01</item>
+        <item>2006TSAI03</item>
+        <item>2007LIME01</item>
+        <item>2012WICH01</item>
+        <item>2009BOZS01</item>
+        <item>2013LEJE03</item>
+        <item>2011KIRU01</item>
+        <item>2008HASH02</item>
+        <item>2013DENN01</item>
+        <item>2010SUGA01</item>
+        <item>2012HUAN12</item>
+        <item>2015WILL01</item>
+        <item>2010UTOM01</item>
+        <item>2010YOUY01</item>
+        <item>2014LANG02</item>
+        <item>2010JANG01</item>
+        <item>2011BARB03</item>
+        <item>2011KNOT01</item>
+        <item>2007VALL01</item>
+        <item>2015GRIE02</item>
+        <item>2012CHOS01</item>
+        <item>2010LEEY01</item>
+        <item>2014XUZI01</item>
+        <item>2010DESJ01</item>
+        <item>2011HOFF02</item>
+        <item>2009MORI05</item>
+        <item>2011DERS01</item>
+        <item>2012SOHO01</item>
+        <item>2014KARN02</item>
+        <item>2009FANH01</item>
+        <item>2010MALL01</item>
+        <item>2009HAYS01</item>
+        <item>2013WOJT02</item>
+        <item>2010GARC02</item>
+        <item>2012ROQU01</item>
+        <item>2008LINE02</item>
+        <item>2008LIKA01</item>
+        <item>2009OLSO01</item>
+        <item>2010NGUY33</item>
+        <item>2010ADHI01</item>
+        <item>2015CHAN04</item>
+        <item>2009SMIT03</item>
+        <item>2013HUAN15</item>
+        <item>2015MANS03</item>
+        <item>2013BRAT01</item>
+        <item>2009LAIY01</item>
+        <item>2009CONT01</item>
+        <item>2009RYAB01</item>
+        <item>2010WANG07</item>
+        <item>2011ANIS01</item>
+        <item>2012SZEW01</item>
+        <item>2008JONG03</item>
+        <item>2013HUAN07</item>
+        <item>2008CHUC02</item>
+        <item>2011JINS01</item>
+        <item>2011GROG02</item>
+        <item>2011AMOR01</item>
+        <item>2009YAUR01</item>
+        <item>2012RUPE01</item>
+        <item>2011LIYI02</item>
+        <item>2013ZHOU19</item>
+        <item>2011CUBA02</item>
+        <item>2013JOKI01</item>
+        <item>2005BATI01</item>
+        <item>2013MUAT01</item>
+        <item>2010PATZ01</item>
+        <item>2011MIRZ01</item>
+        <item>2015BARB06</item>
+        <item>2010SCHI01</item>
+        <item>2014HERO01</item>
+        <item>2008SUNZ01</item>
+        <item>2012BEAH01</item>
+        <item>2010YIDA01</item>
+        <item>2011WANN01</item>
+        <item>2014BEGU01</item>
+        <item>2012WOLN01</item>
+        <item>2013COLI02</item>
+        <item>2007NAKA03</item>
+        <item>2005ZOLN01</item>
+        <item>2006GUNJ01</item>
+        <item>2015PARK13</item>
+        <item>2015CHEA01</item>
+        <item>2009YINM01</item>
+        <item>2015DORN02</item>
+        <item>2005AKKE01</item>
+        <item>2016ENRI01</item>
+        <item>2012WENI01</item>
+        <item>2013BAUT01</item>
+        <item>2010KRAU02</item>
+        <item>2015SHAY01</item>
+        <item>2010LEED02</item>
+        <item>2014ZHAN02</item>
+        <item>2012DYGI01</item>
+        <item>2015TELL01</item>
+        <item>2014BREN02</item>
+        <item>2014GERB01</item>
+        <item>2010LINJ01</item>
+        <item>2010OMUL02</item>
+        <item>2008CLAR01</item>
+        <item>2012DERG01</item>
+        <item>2011ZENG06</item>
+        <item>2013PARK03</item>
+        <item>2013LEET01</item>
+        <item>2009LIUE01</item>
+        <item>2009BARB01</item>
+        <item>2013SAVA01</item>
+        <item>2011BILC01</item>
+        <item>2009JIAY01</item>
+        <item>2013UVES01</item>
+        <item>2013VASI03</item>
+        <item>2013HONG06</item>
+        <item>2007ADSU01</item>
+        <item>2012ROZA01</item>
+        <item>2012WESC01</item>
+        <item>2015VACA01</item>
+        <item>2014KIMD06</item>
+        <item>2013FAVE01</item>
+        <item>2011MAHT02</item>
+        <item>2009KORB01</item>
+        <item>2012IVAN03</item>
+        <item>2010CHEN20</item>
+        <item>2014TYTA02</item>
+        <item>2013MAMO03</item>
+        <item>2012KRIS12</item>
+        <item>2009WHIT01</item>
+        <item>2007COHE01</item>
+        <item>2011RHEI01</item>
+        <item>2014ZYCH01</item>
+        <item>2012PANJ02</item>
+        <item>2008LINH01</item>
+        <item>2008PIAU01</item>
+        <item>2013TIUL01</item>
+        <item>2007GUIM01</item>
+        <item>2011FATE01</item>
+        <item>2014HOUS01</item>
+        <item>2011ALVI01</item>
+        <item>2008ZHAN06</item>
+        <item>2011TORG01</item>
+        <item>2005FLEI01</item>
+        <item>2010VILL03</item>
+        <item>2014BELK01</item>
+        <item>2016THAN01</item>
+        <item>2012HALE01</item>
+        <item>2014MARS04</item>
+        <item>2012NGUY08</item>
+        <item>2007CHAN07</item>
+        <item>2009PICH01</item>
+        <item>2010SICH01</item>
+        <item>2007GOUL01</item>
+        <item>2011NARA02</item>
+        <item>2013LEES03</item>
+        <item>2011REED01</item>
+        <item>2012TERE01</item>
+        <item>2008YUDA01</item>
+        <item>2011KUOE01</item>
+        <item>2013PERE05</item>
+        <item>2015FUSH01</item>
+        <item>2009XIAT02</item>
+        <item>2011DWYE02</item>
+        <item>2010CHIU01</item>
+        <item>2016LIZH05</item>
+        <item>2011LINA01</item>
+        <item>2011SALG01</item>
+        <item>2014XUDA01</item>
+        <item>2008HANK01</item>
+        <item>2011STAN02</item>
+        <item>2013LRAF01</item>
+        <item>2014LOKW01</item>
+        <item>2009MOOR01</item>
+        <item>2015ROSE01</item>
+        <item>2012WROD01</item>
+        <item>2012LUTC01</item>
+        <item>2011CAST01</item>
+        <item>2013MIRA02</item>
+        <item>2011FANG02</item>
+        <item>2012HUGH01</item>
+        <item>2011HUNG02</item>
+        <item>2008WITG01</item>
+        <item>2014KUBI02</item>
+        <item>2013ESPA01</item>
+        <item>2012FROL01</item>
+        <item>2011JIAN15</item>
+        <item>2013FORT01</item>
+        <item>2010KADD01</item>
+        <item>2014SEBA01</item>
+        <item>2015XIAJ01</item>
+        <item>2012SARL01</item>
+        <item>2015NEWH01</item>
+        <item>2008SAJI01</item>
+        <item>2016GARC14</item>
+        <item>2013ZHOU21</item>
+        <item>2010EVDO01</item>
+        <item>2012LIIH01</item>
+        <item>2010DONA01</item>
+        <item>2011EUNS01</item>
+        <item>2009XIAN01</item>
+        <item>2014SRIK03</item>
+        <item>2011ERYO01</item>
+        <item>2008NADU01</item>
+        <item>2015MAGA02</item>
+        <item>2013VALL03</item>
+        <item>2008TAKA01</item>
+        <item>2014CHRI04</item>
+        <item>2013SUKA01</item>
+        <item>2014RZEW01</item>
+        <item>2010SABA01</item>
+        <item>2011SZAT01</item>
+        <item>2013FENG02</item>
+        <item>2013KATO01</item>
+        <item>2009DIMP01</item>
+        <item>2014GUMI01</item>
+        <item>2011SHAO01</item>
+        <item>2014SAIT02</item>
+        <item>2011YUBE01</item>
+        <item>2015TANE02</item>
+        <item>2015WUJI02</item>
+        <item>2013JANK02</item>
+        <item>2012JANG02</item>
+        <item>2011MELI01</item>
+        <item>2013MORE09</item>
+        <item>2013DISA01</item>
+        <item>2012ITOR01</item>
+        <item>2006BARL01</item>
+        <item>2014STIN01</item>
+        <item>2013KOSK01</item>
+        <item>2013MALI03</item>
+        <item>2013KAMI03</item>
+        <item>2012HERN03</item>
+        <item>2009SMAR01</item>
+        <item>2012PASC01</item>
+        <item>2008BROW01</item>
+        <item>2013SCHM02</item>
+        <item>2005FERN01</item>
+        <item>2008CRAW01</item>
+        <item>2011CAST02</item>
+        <item>2013GERT01</item>
+        <item>2012KISH03</item>
+        <item>2009AZIZ02</item>
+        <item>2007LUCH01</item>
+        <item>2010ALFA03</item>
+        <item>2014WANG40</item>
+        <item>2012TAKA01</item>
+        <item>2007YOSH01</item>
+        <item>2011HYEO01</item>
+        <item>2005VANH01</item>
+        <item>2010LIBO01</item>
+        <item>2009GLOP01</item>
+        <item>2015GUNN01</item>
+        <item>2012SLIZ01</item>
+        <item>2009HAMO01</item>
+        <item>2015PARD02</item>
+        <item>2015GROH02</item>
+        <item>2012CHON03</item>
+        <item>2011SOLE02</item>
+        <item>2014CHER05</item>
+        <item>2013FURL01</item>
+        <item>2008KINN01</item>
+        <item>2010DAVI06</item>
+        <item>2013FRON01</item>
+        <item>2010CHEN37</item>
+        <item>2013SIER01</item>
+        <item>2009SALA01</item>
+        <item>2014HERN08</item>
+        <item>2013CLAP01</item>
+        <item>2010STOL01</item>
+        <item>2006HALC01</item>
+        <item>2013CHEN22</item>
+        <item>2011AKIV01</item>
+        <item>2013POHO01</item>
+        <item>2014WANG17</item>
+        <item>2014JITT01</item>
+        <item>2011MOLL01</item>
+        <item>2008REMO01</item>
+        <item>2009BRZE01</item>
+        <item>2008WUKU01</item>
+        <item>2012TYCK01</item>
+        <item>2009SATO02</item>
+        <item>2014RUIZ04</item>
+        <item>2010DOOY01</item>
+        <item>2008SIMO01</item>
+        <item>2008WEST02</item>
+        <item>2011AGAR05</item>
+        <item>2012YUTA01</item>
+        <item>2008ASIS01</item>
+        <item>2012BUBE01</item>
+        <item>2015XUXI02</item>
+        <item>2013MAZA01</item>
+        <item>2011BOGA01</item>
+        <item>2013TAKA02</item>
+        <item>2007ESPI01</item>
+        <item>2014AMAY01</item>
+        <item>2010JINY02</item>
+        <item>2013IBRA01</item>
+        <item>2011LINZ01</item>
+        <item>2013RESS01</item>
+        <item>2008YUNS02</item>
+        <item>2011CHAP01</item>
+        <item>2014HULE02</item>
+        <item>2014LOVE01</item>
+        <item>2007HUBE01</item>
+        <item>2007OMUR01</item>
+        <item>2013ANAM01</item>
+        <item>2013LIHA03</item>
+        <item>2007SUNT01</item>
+        <item>2006OKAY01</item>
+        <item>2013MATH01</item>
+        <item>2011VERV01</item>
+        <item>2008QUDO01</item>
+        <item>2008KELL02</item>
+        <item>2011HUTN01</item>
+        <item>2014ZAKR01</item>
+        <item>2014TANG03</item>
+        <item>2013CHIA02</item>
+        <item>2015ZHOU16</item>
+        <item>2013BUCZ01</item>
+        <item>2014HOLU01</item>
+        <item>2007WONG02</item>
+        <item>2013HOMM02</item>
+        <item>2007WAPP01</item>
+        <item>2015WANG33</item>
+        <item>2011COFR01</item>
+        <item>2010HYUN01</item>
+        <item>2014ZHAR01</item>
+        <item>2011PIHE01</item>
+        <item>2009CYRK01</item>
+        <item>2010JORG01</item>
+        <item>2010KORO01</item>
+        <item>2009STIF01</item>
+        <item>2010DUJI01</item>
+        <item>2014CZAP01</item>
+        <item>2014BLAI02</item>
+        <item>2012BABU01</item>
+        <item>2013WANG67</item>
+        <item>2013OLIV01</item>
+        <item>2014FRIT02</item>
+        <item>2012SHAV01</item>
+        <item>2013TRUC01</item>
+        <item>2014JANG01</item>
+        <item>2011MATA01</item>
+        <item>2008LEEP01</item>
+        <item>2013BURL01</item>
+        <item>2009IOVA01</item>
+        <item>2013TOKA01</item>
+        <item>2012FABR01</item>
+        <item>2007JOHN02</item>
+        <item>2006ARAK01</item>
+        <item>2015PABR01</item>
+        <item>2014DETL01</item>
+        <item>2012SZEL01</item>
+        <item>2011MERL01</item>
+        <item>2010FUEN01</item>
+        <item>2013PRZY02</item>
+        <item>2015MARI04</item>
+        <item>2006LINC01</item>
+        <item>2011SELZ01</item>
+        <item>2015PARK08</item>
+        <item>2012NOWA01</item>
+        <item>2011VORO03</item>
+        <item>2013BEAT01</item>
+        <item>2014SCHW02</item>
+        <item>2014CAGN01</item>
+        <item>2011WELC01</item>
+        <item>2011CHUA02</item>
+        <item>2013MANO03</item>
+        <item>2015MANI01</item>
+        <item>2008SMIT04</item>
+        <item>2013RASK01</item>
+        <item>2008BYEO01</item>
+        <item>2013OWCZ01</item>
+        <item>2016ROJA03</item>
+        <item>2011RIEA01</item>
+        <item>2015DUYU01</item>
+        <item>2010DELA01</item>
+        <item>2012AMPO01</item>
+        <item>2009KHAL01</item>
+        <item>2011HETC01</item>
+        <item>2009POOK01</item>
+        <item>2014ANIS01</item>
+        <item>2012BERG04</item>
+        <item>2013TSCH02</item>
+        <item>2012SEVE01</item>
+        <item>2015CHHA03</item>
+        <item>2014CRUZ06</item>
+        <item>2011SOAR01</item>
+        <item>2014OLAR02</item>
+        <item>2006GARR01</item>
+        <item>2009LADA01</item>
+        <item>2011JOVI01</item>
+        <item>2011ATAS01</item>
+        <item>2013ZIEB01</item>
+        <item>2011ROKI01</item>
+        <item>2013TALU01</item>
+        <item>2013MCGR02</item>
+        <item>2012ONGR01</item>
+        <item>2008UENO01</item>
+        <item>2013ZHAN62</item>
+        <item>2014KATR01</item>
+        <item>2014HOUG01</item>
+        <item>2010HIRA01</item>
+        <item>2009LIUY08</item>
+        <item>2013KAPL01</item>
+        <item>2013BOLI01</item>
+        <item>2012HAMA03</item>
+        <item>2014HELL01</item>
+        <item>2012NIKO01</item>
+        <item>2014CHEN37</item>
+        <item>2014NIET03</item>
+        <item>2008JAFF01</item>
+        <item>2013YUSH01</item>
+        <item>2008MIZU01</item>
+        <item>2009JUNY01</item>
+        <item>2012HJIN01</item>
+        <item>2011SOLA01</item>
+        <item>2014MERI01</item>
+        <item>2009KORB02</item>
+        <item>2013GDUL01</item>
+        <item>2011ABAB01</item>
+        <item>2011PENG04</item>
+        <item>2015HUGH02</item>
+        <item>2009JIAN12</item>
+        <item>2014THON02</item>
+        <item>2008KARL02</item>
+        <item>2015FIRM01</item>
+        <item>2013YAMA01</item>
+        <item>2011ZVYA01</item>
+        <item>2010WANG11</item>
+        <item>2013ANDE04</item>
+        <item>2006TSAO01</item>
+        <item>2015MEDE01</item>
+        <item>2011DUHA01</item>
+        <item>2015POWE03</item>
+        <item>2011CHAU05</item>
+        <item>2009SWEE01</item>
+        <item>2008FOST01</item>
+        <item>2007TAMA02</item>
+        <item>2013MAHM02</item>
+        <item>2014ZHAN16</item>
+        <item>2013ZHON04</item>
+        <item>2012KIMD01</item>
+        <item>2010HULL01</item>
+        <item>2006HIGO01</item>
+        <item>2011CAOS01</item>
+        <item>2011ANNE01</item>
+        <item>2013DOLG01</item>
+        <item>2012HAML01</item>
+        <item>2011ULIN01</item>
+        <item>2011SUNG01</item>
+        <item>2012CHEN28</item>
+        <item>2013TORN02</item>
+        <item>2011KOGL01</item>
+        <item>2010PANP01</item>
+        <item>2012YARY01</item>
+        <item>2013HOAR01</item>
+        <item>2014BAIR01</item>
+        <item>2012COOK01</item>
+        <item>2009NEIT01</item>
+        <item>2011NGUY10</item>
+        <item>2011KUDA01</item>
+        <item>2012LUMB01</item>
+        <item>2011TRON02</item>
+        <item>2014KOLE02</item>
+        <item>2016UEDA01</item>
+        <item>2011HEZH02</item>
+        <item>2014GANZ02</item>
+        <item>2013PASA01</item>
+        <item>2011FYDR01</item>
+        <item>2014RAJE03</item>
+        <item>2011ZENG05</item>
+        <item>2013TSCH01</item>
+        <item>2011SIMC01</item>
+        <item>2016ZHAZ02</item>
+        <item>2007POLK01</item>
+        <item>2011WALK02</item>
+        <item>2013KEJR01</item>
+        <item>2012JAMR01</item>
+        <item>2009TANG01</item>
+        <item>2013GALA04</item>
+        <item>2011GOTT03</item>
+        <item>2011COLL02</item>
+        <item>2014CHAN23</item>
+        <item>2011ZHAN31</item>
+        <item>2009ORTI01</item>
+        <item>2010RAIH01</item>
+        <item>2011CAHY03</item>
+        <item>2015DOYU01</item>
+        <item>2007POLI01</item>
+        <item>2012WERB01</item>
+        <item>2008LIMS01</item>
+        <item>2010SHIX01</item>
+        <item>2011CHEN19</item>
+        <item>2008ZOFF01</item>
+        <item>2009THIE02</item>
+        <item>2013LIMD01</item>
+        <item>2013LEEJ04</item>
+        <item>2015RICH02</item>
+        <item>2015BROK01</item>
+        <item>2012CHOW03</item>
+        <item>2010SOPC01</item>
+        <item>2015PALA07</item>
+        <item>2012SILV22</item>
+        <item>2009ALFA01</item>
+        <item>2010KOTC01</item>
+        <item>2010GOLD01</item>
+        <item>2011CUBA01</item>
+        <item>2013HELM02</item>
+        <item>2013KOWA04</item>
+        <item>2012SART01</item>
+        <item>2012WALK02</item>
+        <item>2008VOSD01</item>
+        <item>2009TATD01</item>
+        <item>2014DROB02</item>
+        <item>2008YOUN02</item>
+        <item>2011KLYA01</item>
+        <item>2011LUDW01</item>
+        <item>2016ZHOU16</item>
+        <item>2014BAEA01</item>
+        <item>2008NOMU01</item>
+        <item>2008BONO01</item>
+        <item>2009TOMC01</item>
+        <item>2013WEAV01</item>
+        <item>2011STEP01</item>
+        <item>2009WANG15</item>
+        <item>2015LEON02</item>
+        <item>2013JORD01</item>
+        <item>2008MATS02</item>
+        <item>2011SUIH01</item>
+        <item>2015PANK02</item>
+        <item>2014REYE05</item>
+        <item>2007ALCA01</item>
+        <item>2006DZOA03</item>
+        <item>2016TIAN01</item>
+        <item>2004KRIG01</item>
+        <item>2013MEND05</item>
+        <item>2011TERE01</item>
+        <item>2013GBIC01</item>
+        <item>2014YELI01</item>
+        <item>2010JULI01</item>
+        <item>2013RIGO01</item>
+        <item>2012KALH01</item>
+        <item>2013BOTZ01</item>
+        <item>2016YENC01</item>
+        <item>2015GODD01</item>
+        <item>2014MATT05</item>
+        <item>2011FLAG01</item>
+        <item>2012OKUY01</item>
+        <item>2014SUBA02</item>
+        <item>2013LINZ04</item>
+        <item>2012ZHAN08</item>
+        <item>2013JOHN10</item>
+        <item>2014ZAKA01</item>
+        <item>2015ZOUH01</item>
+        <item>2013STAH02</item>
+        <item>2013KWON04</item>
+        <item>2011KALM01</item>
+        <item>2013GOOD01</item>
+        <item>2011SHAH01</item>
+        <item>2011KUNG01</item>
+        <item>2013FATE01</item>
+        <item>2012HOLE01</item>
+        <item>2010SEON01</item>
+        <item>2011JONA01</item>
+        <item>2007SHIU02</item>
+        <item>2011WANG30</item>
+        <item>2012BALI01</item>
+        <item>2014ANDE01</item>
+        <item>2015MINE02</item>
+        <item>2013AGAR01</item>
+        <item>2012CHAN10</item>
+        <item>2012FIED01</item>
+        <item>2008SAPO01</item>
+        <item>2010ESTU01</item>
+        <item>2012UTAM01</item>
+        <item>2014DALA03</item>
+        <item>2014KOHA01</item>
+        <item>2011IRIF01</item>
+        <item>2010MIAZ01</item>
+        <item>2015MOGY01</item>
+        <item>2011SVEN02</item>
+        <item>2013RAAG01</item>
+        <item>2014WONG08</item>
+        <item>2012BUZG01</item>
+        <item>2015HESS01</item>
+        <item>2013WUHA01</item>
+        <item>2009WANG23</item>
+        <item>2015SANC11</item>
+        <item>2012GRAM03</item>
+        <item>2009BOUR01</item>
+        <item>2009ROHR01</item>
+        <item>2014TUZK01</item>
+        <item>2009BEVA01</item>
+        <item>2015LIBB01</item>
+        <item>2011VERS03</item>
+        <item>2006BUUS01</item>
+        <item>2008ANGU01</item>
+        <item>2015SAXE01</item>
+        <item>2014CHIC01</item>
+        <item>2012MENE01</item>
+        <item>2014QUYN02</item>
+        <item>2015WAGH02</item>
+        <item>2016CAOW01</item>
+        <item>2015ZHUX01</item>
+        <item>2013LIUJ03</item>
+        <item>2010MELL01</item>
+        <item>2014NGAN01</item>
+        <item>2003MAKI01</item>
+        <item>2011TRAN08</item>
+        <item>2015ZHAN85</item>
+        <item>2015ZHAN78</item>
+        <item>2008WONE01</item>
+        <item>2015SHAH09</item>
+        <item>2015LITV01</item>
+        <item>2009BOAR01</item>
+        <item>2011VERD01</item>
+        <item>2013KIMH01</item>
+        <item>2011LIPP01</item>
+        <item>2011YUAN05</item>
+        <item>2012LIYA01</item>
+        <item>2014BHAT09</item>
+        <item>2013SOMA05</item>
+        <item>2007CHAN06</item>
+        <item>2014KIMJ02</item>
+        <item>2014YUNO01</item>
+        <item>2011RECH01</item>
+        <item>2014TAOW01</item>
+        <item>2014SHEN06</item>
+        <item>2014YASH01</item>
+        <item>2015FEER01</item>
+        <item>2014FERR09</item>
+        <item>2015HOPK01</item>
+        <item>2015WANG88</item>
+        <item>2012NICO02</item>
+        <item>2009SUPC01</item>
+        <item>2015ANDA01</item>
+        <item>2010CRIS01</item>
+        <item>2014BURO01</item>
+        <item>2011BOST01</item>
+        <item>2015ARDA01</item>
+        <item>2006SHEU01</item>
+        <item>2008JINX01</item>
+        <item>2012CHEN54</item>
+        <item>2009HILD01</item>
+        <item>2012PRIE01</item>
+        <item>2014BERE01</item>
+        <item>2011SANJ01</item>
+        <item>2014UDAY01</item>
+        <item>2012LINZ02</item>
+        <item>2013WANG69</item>
+        <item>2010SONG02</item>
+        <item>2016BATE06</item>
+        <item>2014PHIL02</item>
+        <item>2014RAJA09</item>
+        <item>2014BAND04</item>
+        <item>2010STOI01</item>
+        <item>2012GONZ10</item>
+        <item>2015LEEJ02</item>
+        <item>2008KAGE01</item>
+        <item>2014CLAR01</item>
+        <item>2008BAOY01</item>
+        <item>2011CHAN10</item>
+        <item>2014ZHAN01</item>
+        <item>2015GARR01</item>
+        <item>2015DANH01</item>
+        <item>2012PETE03</item>
+        <item>2008ANDE02</item>
+        <item>2009ASBR01</item>
+        <item>2010AGUI04</item>
+        <item>2011BANS02</item>
+        <item>2015PETR01</item>
+        <item>2014SCHO02</item>
+        <item>2010KIKO01</item>
+        <item>2007GAMB01</item>
+        <item>2014ZAHN01</item>
+        <item>2012VAID02</item>
+        <item>2012MARA03</item>
+        <item>2014LIAL01</item>
+        <item>2008BERE01</item>
+        <item>2014BILG01</item>
+        <item>2013FARI02</item>
+        <item>2016PHON03</item>
+        <item>2015XIEY03</item>
+        <item>2016REYE01</item>
+        <item>2009SHEP01</item>
+        <item>2012ADAM03</item>
+        <item>2012SIMS02</item>
+        <item>2013TAKE01</item>
+        <item>2007CLAE03</item>
+        <item>2007ALIW01</item>
+        <item>2012CALL01</item>
+        <item>2014ZHOU10</item>
+        <item>2015ZUBO01</item>
+        <item>2008BODO01</item>
+        <item>2008BRAN01</item>
+        <item>2011THOM01</item>
+        <item>2010WARD02</item>
+        <item>2012HANS04</item>
+        <item>2010WAND03</item>
+        <item>2010WONG01</item>
+        <item>2013SOLO02</item>
+        <item>2007BODO01</item>
+        <item>2012DOBR01</item>
+        <item>2013KHAN06</item>
+        <item>2004CHAM01</item>
+        <item>2010MATT02</item>
+        <item>2011STAC01</item>
+        <item>2009LIPA01</item>
+        <item>2013BLAN01</item>
+        <item>2012ADLO01</item>
+        <item>2013MINT01</item>
+        <item>2011LEAL01</item>
+        <item>2011KARI03</item>
+        <item>2015ZHAN62</item>
+        <item>2015BAOY01</item>
+        <item>2011SAKO01</item>
+        <item>2008VIRT01</item>
+        <item>2011SIMO02</item>
+        <item>2008LAMH01</item>
+        <item>2016LOZA02</item>
+        <item>2014ZUNI02</item>
+        <item>2006OOKU01</item>
+        <item>2013KOBA01</item>
+        <item>2007SEUN04</item>
+        <item>2010JUNI02</item>
+        <item>2013DOMI03</item>
+        <item>2012MAUR01</item>
+        <item>2012PADA01</item>
+        <item>2016TIEN01</item>
+        <item>2011WICA01</item>
+        <item>2011FIOL01</item>
+        <item>2012MAIE01</item>
+        <item>2012LIFL01</item>
+        <item>2008ZHOU01</item>
+        <item>2009SPRI01</item>
+        <item>2013VAKU01</item>
+        <item>2014CORD04</item>
+        <item>2014LING04</item>
+        <item>2012MANU01</item>
+        <item>2007PERG01</item>
+        <item>2003BRUC01</item>
+        <item>2014SCHA03</item>
+        <item>2014ROME06</item>
+        <item>2012LIKC01</item>
+        <item>2010LIUC01</item>
+        <item>2011FAJA03</item>
+        <item>2015JESU01</item>
+        <item>2013SAVI01</item>
+        <item>2012QINL01</item>
+        <item>2014BUEH01</item>
+        <item>2007SUGA01</item>
+        <item>2012CHIE01</item>
+        <item>2014NOVO01</item>
+        <item>2011LINY05</item>
+        <item>2014GOGT01</item>
+        <item>2011FRES01</item>
+        <item>2013BLOC01</item>
+        <item>2014ZAWI02</item>
+        <item>2010SARD01</item>
+        <item>2009SAEZ01</item>
+        <item>2016MOON02</item>
+        <item>2013SOMA01</item>
+        <item>2012YANZ02</item>
+        <item>2014FANG01</item>
+        <item>2015PARK18</item>
+        <item>2014WENW01</item>
+        <item>2011DADF01</item>
+        <item>2011BERG02</item>
+        <item>2013ZENG02</item>
+        <item>2008MORE02</item>
+        <item>2010DEIM01</item>
+        <item>2013VALE03</item>
+        <item>2013BOGD04</item>
+        <item>2013MACI01</item>
+        <item>2014LAFO01</item>
+        <item>2010WUCH02</item>
+        <item>2010BENT01</item>
+        <item>2015LARS04</item>
+        <item>2009SHAH04</item>
+        <item>2007ZHAN03</item>
+        <item>2012ISHI01</item>
+        <item>2012LUOS01</item>
+        <item>2014NUTA01</item>
+        <item>2012MAYE01</item>
+        <item>2009FLUG01</item>
+        <item>2014NICH02</item>
+        <item>2013SCHW03</item>
+        <item>2013PIEC02</item>
+        <item>2015XION03</item>
+        <item>2013KRAS02</item>
+        <item>2014BENT02</item>
+        <item>2013ZHYH01</item>
+        <item>2011NATH02</item>
+        <item>2011NEJA02</item>
+        <item>2009ARIA01</item>
+        <item>2014COLL02</item>
+        <item>2013GALI03</item>
+        <item>2011ALAL01</item>
+        <item>2005KOZK01</item>
+        <item>2014PETE03</item>
+        <item>2009ABRA01</item>
+        <item>2013VIDA03</item>
+        <item>2011CHEN03</item>
+        <item>2015DHIR02</item>
+        <item>2008VIRO01</item>
+        <item>2012SANT12</item>
+        <item>2013LOYA01</item>
+        <item>2015BALD03</item>
+        <item>2009BLAI01</item>
+        <item>2015ZHAR01</item>
+        <item>2013TATI01</item>
+        <item>2008DANG01</item>
+        <item>2010FAND01</item>
+        <item>2015ANTL01</item>
+        <item>2011PUME01</item>
+        <item>2014KITT01</item>
+        <item>2014HAMI02</item>
+        <item>2009AURO01</item>
+        <item>2012ICKL01</item>
+        <item>2010AZAR01</item>
+        <item>2013IORD01</item>
+        <item>2009YIMW01</item>
+        <item>2012DROY01</item>
+        <item>2010POLY01</item>
+        <item>2014LOPE04</item>
+        <item>2010BERT01</item>
+        <item>2015LAII01</item>
+        <item>2010HUDL01</item>
+        <item>2011WITT02</item>
+        <item>2015LAIS02</item>
+        <item>2010RICH04</item>
+        <item>2014DANY02</item>
+        <item>2010KRYU01</item>
+        <item>2013GUER03</item>
+        <item>2012GIAN01</item>
+        <item>2013CHIC01</item>
+        <item>2008MANA02</item>
+        <item>2009SIKL01</item>
+        <item>2009KNOP01</item>
+        <item>2012GRID01</item>
+        <item>2005REYN01</item>
+        <item>2012UZAK01</item>
+        <item>2013GHOD01</item>
+        <item>2013ASBE01</item>
+        <item>2015CLAR03</item>
+        <item>2007BERN01</item>
+        <item>2010SHAR03</item>
+        <item>2009GARR01</item>
+        <item>2013RUIZ02</item>
+        <item>2013MYUN01</item>
+        <item>2010GROB02</item>
+        <item>2014VOVA01</item>
+        <item>2014XIUF01</item>
+        <item>2011AZHA01</item>
+        <item>2006GOTT01</item>
+        <item>2010BAYL01</item>
+        <item>2013KUIJ01</item>
+        <item>2009DANT01</item>
+        <item>2012ROTH01</item>
+        <item>2011WANG52</item>
+        <item>2015ALIE01</item>
+        <item>2012PUTR01</item>
+        <item>2008WAIC01</item>
+        <item>2010MAZU01</item>
+        <item>2014GREE03</item>
+        <item>2009TAND01</item>
+        <item>2015DELA05</item>
+        <item>2014LEES01</item>
+        <item>2014GLEN01</item>
+        <item>2010TERU01</item>
+        <item>2006KANG01</item>
+        <item>2015CHIP01</item>
+        <item>2008CHEN10</item>
+        <item>2010CHOK01</item>
+        <item>2013HRNK01</item>
+        <item>2007FUBO01</item>
+        <item>2006FRAN01</item>
+        <item>2012HWAN01</item>
+        <item>2007SHIR01</item>
+        <item>2011VILA01</item>
+        <item>2013HRNK01</item>
+        <item>2007FUBO01</item>
+        <item>2006FRAN01</item>
+        <item>2012HWAN01</item>
+        <item>2007SHIR01</item>
+        <item>2011VILA01</item>
+        <item>2013WANG51</item>
+        <item>2015CARA03</item>
+        <item>2015XIEA01</item>
+        <item>2013CHIA03</item>
+        <item>2010RONK01</item>
+        <item>2015FAGU01</item>
+        <item>2013JEZI01</item>
+        <item>2015KORO02</item>
+        <item>2016MENG01</item>
+        <item>2015VIRA02</item>
+        <item>2008JADE01</item>
+        <item>2008NIED01</item>
+        <item>2012PENG05</item>
+        <item>2014IRIA01</item>
+        <item>2010BECK01</item>
+        <item>2012TANG08</item>
+        <item>2010YUPH01</item>
+        <item>2014NISH04</item>
+        <item>2011JIAN18</item>
+        <item>2012HIRA01</item>
+        <item>2014NAVA04</item>
+        <item>2013KHUU01</item>
+        <item>2014WANG48</item>
+        <item>2015RAMI07</item>
+        <item>2016SOOD01</item>
+        <item>2011LINY02</item>
+        <item>2009KIMA01</item>
+        <item>2015MARL01</item>
+        <item>2012LEEJ06</item>
+        <item>2012XULI02</item>
+        <item>2014LOWE01</item>
+        <item>2013CONT01</item>
+        <item>2008JEWR01</item>
+        <item>2014KORO02</item>
+        <item>2013RUIX02</item>
+        <item>2011ZOLF01</item>
+        <item>2014BONA02</item>
+        <item>2011MIKE01</item>
+        <item>2013HUFF01</item>
+        <item>2011FOYL01</item>
+        <item>2012WALD01</item>
+        <item>2014YANG11</item>
+        <item>2015PHUE01</item>
+        <item>2011KARI01</item>
+    </string-array>
+</resources>

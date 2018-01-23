@@ -1,0 +1,28 @@
+CREATE TABLE follower (
+    _id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL,
+    wca_id TEXT NOT NULL,
+    country TEXT NOT NULL,
+    gender TEXT NOT NULL,
+    competitions TEXT NOT NULL
+);
+
+delete_table:
+DROP TABLE IF EXISTS follower;
+
+select_all:
+SELECT * FROM follower;
+
+select_id_from_wca:
+SELECT _id FROM follower WHERE wca_id = ?;
+
+select_follower_from_id:
+SELECT * FROM follower WHERE _id = ?;
+
+delete_follower:
+DELETE FROM follower WHERE _id = ?;
+
+insert_follower:
+INSERT INTO
+    follower(name, wca_id, country, gender, competitions)
+    VALUES (?, ?, ?, ?, ?);

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<notices>
+    <notice>
+        <name>Android Open Source Project</name>
+        <url>https://developer.android.com/tools/support-library/index.html</url>
+        <copyright>Copyright (C) 2016 The Android Open Source Project</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+
+    <notice>
+        <name>Android Support Libraries</name>
+        <url>https://developer.android.com/tools/support-library/index.html</url>
+        <copyright>Copyright (C) 2016 The Android Open Source Project</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+
+    <notice>
+        <name>Picasso</name>
+        <url>https://github.com/square/picasso</url>
+        <copyright>Copyright 2013 Square, Inc.</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+
+    <notice>
+        <name>OkHttp</name>
+        <url>https://github.com/square/okhttp</url>
+        <copyright>Copyright 2016 Square, Inc.</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+
+    <notice>
+        <name>SQLDelight</name>
+        <url>https://github.com/square/sqldelight</url>
+        <copyright>Copyright 2016 Square, Inc.</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+
+    <notice>
+        <name>Butter Knife</name>
+        <url>https://github.com/JakeWharton/butterknife</url>
+        <copyright>Copyright 2013 Jake Wharton</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+
+    <notice>
+        <name>jsoup</name>
+        <url>https://github.com/jhy/jsoup</url>
+        <copyright>© 2009-2016, Jonathan Hedley &#60;jonathan@hedley.net&#62;</copyright>
+        <license>MIT License</license>
+    </notice>
+
+    <notice>
+        <name>Expandable RecyclerView</name>
+        <url>https://github.com/bignerdranch/expandable-recycler-view</url>
+        <copyright>Copyright (c) 2015 Big Nerd Ranch</copyright>
+        <license>MIT License</license>
+    </notice>
+
+    <notice>
+        <name>Email Intent Builder</name>
+        <url>https://github.com/cketti/EmailIntentBuilder</url>
+        <copyright>Copyright 2015 cketti</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+
+    <notice>
+        <name>material-intro</name>
+        <url>https://github.com/HeinrichReimer/material-intro</url>
+        <copyright>Copyright 2016 Heinrich Reimer</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+
+    <notice>
+        <name>Auto</name>
+        <url>https://github.com/google/auto</url>
+        <copyright>Copyright 2013 Google, Inc.</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+
+    <notice>
+        <name>Android-RateThisApp</name>
+        <url>https://github.com/kobakei/Android-RateThisApp</url>
+        <copyright>Copyright 2013-2017 Keisuke Kobayashi</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+
+    <notice>
+        <name>LicensesDialog</name>
+        <url>https://github.com/PSDev/LicensesDialog</url>
+        <copyright>Copyright 2013-2016 Philip Schiffer</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+
+    <notice>
+        <name>Pixel perfect</name>
+        <url>http://www.flaticon.com/authors/pixel-perfect</url>
+    </notice>
+</notices>

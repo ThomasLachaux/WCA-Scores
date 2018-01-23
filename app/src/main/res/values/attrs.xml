@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleView">
+        <attr name="text" format="string"/>
+        <attr name="backgroundColor" format="color"/>
+        <attr name="textSize" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="AppThemeStyle">
+        <attr name="colorPrimaryLight" format="reference"/>
+        <attr name="toolbarTitle" format="reference"/>
+        <attr name="fabVisible" format="boolean"/>
+        <attr name="fabIcon" format="reference"/>
+    </declare-styleable>
+</resources>

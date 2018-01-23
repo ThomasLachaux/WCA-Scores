@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pref_personal_id" translatable="false"><xliff:g>pref_personable_id</xliff:g></string>
+    <string name="pref_isdark" translatable="false"><xliff:g>pref_isdark</xliff:g></string>
+    <string name="pref_country" translatable="false"><xliff:g>pref_country</xliff:g></string>
+
+    <string name="pref_check_freq" translatable="false"><xliff:g>pref_check_freq</xliff:g></string>
+    <string name="pref_check_network" translatable="false"><xliff:g>pref_check_network</xliff:g></string>
+
+    <string name="pref_first_launch" translatable="false"><xliff:g>pref_launch</xliff:g></string>
+    <string name="pref_time_first_launch" translatable="false"><xliff:g>pref_time_first_launch</xliff:g></string>
+
+    <string name="pref_alphabetical_comp_order" translatable="false"><xliff:g>pref_alphabetical_comp_order</xliff:g></string>
+    <string name="pref_alphabetical_hist_order" translatable="false"><xliff:g>pref_alphabetical_hist_order</xliff:g></string>
+
+    <string name="pref_last_competitions_checked" translatable="false"><xliff:g>pref_last_competitions_checked</xliff:g></string>
+</resources>

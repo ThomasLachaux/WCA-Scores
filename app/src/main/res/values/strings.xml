@@ -1,0 +1,212 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!--
+        Référence:
+            &#160; espace
+            0144: É
+            0200: È
+            0203: Ë
+            0192: À
+    -->
+    <!-- Personal -->
+    <string name="app_name" translatable="false"><xliff:g id="app_name">WCA Scores</xliff:g></string>
+    <string name="email" translatable="false"><xliff:g id="email">herel.dev@gmail.com</xliff:g></string>
+
+
+    <!-- Activities -->
+
+    <!-- CUBES -->
+    <string name="cube_3x3">Rubik\'s cube</string>
+
+    <!-- Intro -->
+    <string name="intro_slide_1">Welcome to WCA Scores, a simple app displaying your records from the World Cube Association.\nTo begin, log in with your WCA ID.\nYou can log in later</string>
+    <string name="intro_slide_2">Get your records, history, competitions on a light interface</string>
+    <string name="intro_slide_3">You can follow cubers to save their results offline and keep you informed as soon as they break their records</string>
+
+    <string name="visitor">Visitor</string>
+    <string name="log_in">Log in</string>
+
+    <string name="information">Information</string>
+    <string name="info_no_connection">While you are not logged in, you will see random profiles of the best players instead.</string>
+    <!-- Records -->
+    <string name="records">Records</string>
+    <string name="single">Single</string>
+    <string name="average">Average</string>
+    <string name="single_colon">single:</string>
+    <string name="average_colon">average:</string>
+    <string name="single_format">Single %1$s</string>
+    <string name="average_format">Average %1$s</string>
+
+    <string name="record_time">Time: <xliff:g id="time">%1$s</xliff:g></string>
+    <string name="record_nr">National record</string>
+    <string name="record_nr_format">Nation record: <xliff:g id="rank">%1$s</xliff:g></string>
+    <string name="record_cr">Continental record</string>
+    <string name="record_cr_format">Continental record: <xliff:g id="rank">%1$s</xliff:g></string>
+    <string name="record_wr">World record</string>
+    <string name="record_wr_format">World record: <xliff:g id="rank">%1$s</xliff:g></string>
+    <string name="online">Online</string>
+
+    <!-- History -->
+    <string name="event">Event</string>
+    <string name="history">History</string>
+    <string name="round">Round</string>
+    <string name="best">Best</string>
+
+    <!-- Ranking -->
+    <string name="ranking">Ranking</string>
+    <string name="rank">Rank</string>
+    <string name="person">Person</string>
+    <string name="result">Result</string>
+    <string name="citizen">Citizen</string>
+    <string name="world">World</string>
+    <string name="two_infos"><xliff:g>%1$s (%2$s)</xliff:g></string>
+    <string name="switch_cube">Switch cube</string>
+    <string name="switch_country">Switch country</string>
+    <string name="goto_profile_tip">Hold to go to this profile</string>
+
+    <!-- Followers -->
+    <string name="follow">Follow</string>
+    <string name="unfollow">Stop following anymore</string>
+    <string name="followers">Followers</string>
+
+    <!-- Profile -->
+    <string name="me">Me</string>
+    <string name="profile">Profile</string>
+    <string name="edit_profile">Switch profile</string>
+    <string name="toast_switch_profile_confirmation">Your profile is now assigned in the name of <xliff:g id="name">%1$s</xliff:g></string>
+    <string name="toast_follow_confirmation">You follow <xliff:g id="name">%1$s</xliff:g></string>
+    <string name="toast_unfollow_confirmation">You do not follow <xliff:g id="name">%1$s</xliff:g> anymore</string>
+    <string name="dialog_edit_profile_follow_title">Switch profile/Follow</string>
+    <string name="dialog_edit_profile_follow_message">
+        You can :
+        <xliff:g>\n\t-</xliff:g>Follow <xliff:g id="name">%1$s</xliff:g> and keep you informed if he/she breaks records
+        <xliff:g>\n\t-</xliff:g>Switch profile and assign your personal profile in the name of <xliff:g id="name">%1$s</xliff:g>.
+    </string>
+
+    <!-- User -->
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="country">Country</string>
+
+    <!-- Competitions -->
+    <string name="competition">Competition</string>
+    <string name="competitions">Competitions</string>
+
+    <plurals name="in_progress_competitions">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> in progress competition</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> in progress competitions</item>
+    </plurals>
+
+    <plurals name="upcoming_competitions">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> upcoming competition</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> upcoming competitions</item>
+    </plurals>
+
+    <plurals name="competitions">
+        <item quantity="one">%1$d competition</item>
+        <item quantity="other">%1$d competitions</item>
+    </plurals>
+
+    <string name="competitions_available_title">Competitions available!</string>
+    <string name="competitions_available_content">Competitions are available! Ready to cube?</string>
+
+    <!-- Search -->
+    <string name="search">Search</string>
+
+    <!-- Errors -->
+    <string name="error_activity">No apps can carry out this action</string>
+    <string name="error_connection">Please connect to the internet</string>
+    <string name="err_loading">Loading error<xliff:g>\n\n :-(</xliff:g></string>
+    <string name="error_interpretation_html">HTML code interpretation error</string>
+    <string name="unknown_error">Unknown error</string>
+    <string name="no_followers">You do not follow anyone</string>
+
+    <!-- Menus -->
+    <string name="settings">Settings</string>
+    <string name="my_profile">My profile</string>
+    <string name="explore">Explore</string>
+
+
+    <!-- Préférences -->
+    <string name="licenses">Licenses</string>
+
+    <string name="order">Order</string>
+    <string name="alphabetical_order">Alphabetical order</string>
+    <string name="chronological_order">Chronological order</string>
+
+    <string name="country_summary">Used to check the competitions only in your country</string>
+
+    <!-- Thème -->
+    <string name="theme">Theme</string>
+    <string name="light_dark_theme">Light/Dark theme</string>
+    <string name="pref_theme_summary">Choose a dark or light theme</string>
+    <string name="light">Light</string>
+    <string name="dark">Dark</string>
+
+
+    <!-- Check records network -->
+    <string name="pref_check_network_title">Network used to check records</string>
+    <string name="pref_check_network_summary">Use Wi-Fi or Wi-Fi and mobile data to perform the verification</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="wifi_datas">Wi-Fi + Mobile data</string>
+
+
+    <!-- Check record frequency -->
+    <string name="pref_check_freq_title">Verification frequency</string>
+    <string name="pref_check_freq_summary">Verification frequency of the records, history of the personal profile and the followers.</string>
+
+    <string name="once_hour">Once an hour</string>
+    <string name="once_day">Once a day</string>
+    <string name="twice_day">Twice a day</string>
+    <string name="once_week">Once a week</string>
+    <string name="twice_week">Twice a week</string>
+    <string name="never">Never</string>
+
+
+    <!-- Reset profile -->
+    <string name="reset_pref_id_title">Reset your personal profile</string>
+    <string name="reset_pref_id_content">Reset your personal profile?</string>
+
+
+    <!-- Actions -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="no_thanks">No, thanks</string>
+    <string name="more_info">More information</string>
+    <string name="share">Share</string>
+    <string name="details">Details</string>
+    <string name="about">About</string>
+    <string name="contact">Contact me</string>
+    <string name="goto_internet">See on the website</string>
+    <string name="toast_adding">Adding</string>
+    <string name="goto_maps">See on the map</string>
+    <string name="rate_share_app">Rate/Share this app</string>
+    <string name="rate_app_msg">If you enjoy using this app, would you mind taking a moment to rate or share it? It won\'t take more than a minute. Thank you for your support!</string>
+    <string name="rate">Rate</string>
+    <string name="rate_app">Rate this app</string>
+    <string name="share_app">Share the app</string>
+    <string name="share_app_message">Retrieve all your WCA Scores on an Android App! (<xliff:g>bit.ly/2ismF8A</xliff:g>)</string>
+    <string name="translate_contribute">Translate/Contribute</string>
+
+    <!-- Send mail -->
+    <string name="mail_subject" translatable="false"><xliff:g id="mail_title">Feedback</xliff:g></string>
+    <string name="mail_body" translatable="false"><xliff:g>\n\nSend from: %1$s\nAndroid version: %2$s (%3$d)\nApp Version %4$s (%5$d)</xliff:g></string>
+
+    <!-- Others -->
+    <string name="zero" translatable="false"><xliff:g>0</xliff:g></string>
+    <string name="intro">Introduction</string>
+
+
+    <!-- Notification -->
+
+    <string name="notif_new_event">Record broken: <xliff:g id="cubes">%1$s</xliff:g></string>
+
+    <string name="notif_share"><xliff:g id="user">%1$s</xliff:g> has broken his/her records in <xliff:g id="events">%2$s</xliff:g>!</string>
+
+
+    <string name="string_details_string"><xliff:g id="title">%1$s</xliff:g> (<xliff:g id="content">%2$s</xliff:g>)</string>
+    <string name="string_details_number"><xliff:g id="title">%1$s</xliff:g> (<xliff:g id="number">%2$d</xliff:g>)</string>
+</resources>

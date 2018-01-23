@@ -1,0 +1,32 @@
+CREATE TABLE record (
+    _id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    follower INTEGER NOT NULL,
+    event TEXT NOT NULL,
+    single TEXT,
+    nr_single INTEGER NOT NULL,
+    cr_single INTEGER NOT NULL,
+    wr_single INTEGER NOT NULL,
+    average TEXT,
+    nr_average INTEGER NOT NULL,
+    cr_average INTEGER NOT NULL,
+    wr_average INTEGER NOT NULL,
+
+    FOREIGN KEY(follower) REFERENCES follower(_id)
+);
+
+delete_table:
+DROP TABLE IF EXISTS record;
+
+select_all:
+SELECT * FROM record;
+
+select_from_follower:
+SELECT * FROM record WHERE follower = ?;
+
+delete_records:
+DELETE FROM record WHERE follower = ?;
+
+insert_record:
+INSERT INTO
+    record(follower, event, single, nr_single, cr_single, wr_single, average, nr_average, cr_average, wr_average)
+    VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?);

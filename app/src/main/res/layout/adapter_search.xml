@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:background="?attr/selectableItemBackground"
+    android:padding="@dimen/medium"
+    android:id="@+id/root_layout">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/first_line"
+        android:text="@string/zero"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="15sp"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/second_line"
+        android:text="@string/zero"
+        android:textColor="@color/textColorSecondary"
+        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+</LinearLayout>

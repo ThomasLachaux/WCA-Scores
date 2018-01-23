@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/goto_maps"
+        android:title="@string/goto_maps"/>
+
+    <item
+        android:id="@+id/goto_internet"
+        android:title="@string/goto_internet"/>
+</menu>

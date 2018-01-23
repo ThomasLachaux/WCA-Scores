@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/profile">
+        <com.adrastel.niviel.preferences.ResetPersIdPreference
+            android:key="@string/pref_personal_id"
+            android:title="@string/reset_pref_id_title"
+            android:dialogTitle="@string/reset_pref_id_title"
+            android:dialogMessage="@string/reset_pref_id_content"/>
+
+        <com.adrastel.niviel.preferences.ThemePreference
+            android:key="@string/pref_isdark"
+            android:defaultValue="0"
+            android:title="@string/theme"
+            android:summary="@string/pref_theme_summary"
+            android:dialogTitle="@string/theme"
+            android:positiveButtonText="@string/ok"
+            android:negativeButtonText="@string/cancel"
+            android:entries="@array/theme_list"
+            android:entryValues="@array/theme_list_values"/>
+
+        <ListPreference
+            android:key="@string/pref_country"
+            android:defaultValue="0"
+            android:title="@string/country"
+            android:summary="@string/country_summary"
+            android:dialogTitle="@string/country"
+            android:positiveButtonText="@string/ok"
+            android:negativeButtonText="@string/cancel"
+            android:entries="@array/countries"
+            android:entryValues="@array/countries_id"/>
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/records">
+        <com.adrastel.niviel.preferences.CheckRecordsPreference
+            android:key="@string/pref_check_freq"
+            android:defaultValue="3600000"
+            android:title="@string/pref_check_freq_title"
+            android:summary="@string/pref_check_freq_summary"
+            android:positiveButtonText="@string/ok"
+            android:negativeButtonText="@string/cancel"
+            android:entries="@array/pref_check_freq_list"
+            android:entryValues="@array/pref_check_freq_values"/>
+
+        <com.adrastel.niviel.preferences.CheckRecordsPreference
+            android:key="@string/pref_check_network"
+            android:defaultValue="0"
+            android:title="@string/pref_check_network_title"
+            android:summary="@string/pref_check_network_summary"
+            android:entries="@array/pref_check_network_list"
+            android:entryValues="@array/pref_check_network_values"
+            android:positiveButtonText="@string/ok"
+            android:negativeButtonText="@string/cancel"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/history">
+        <CheckBoxPreference
+            android:key="@string/pref_alphabetical_hist_order"
+            android:title="@string/order"
+            android:summaryOn="@string/alphabetical_order"
+            android:summaryOff="@string/chronological_order"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/competition">
+        <CheckBoxPreference
+            android:key="@string/pref_alphabetical_comp_order"
+            android:title="@string/order"
+            android:summaryOn="@string/alphabetical_order"
+            android:summaryOff="@string/chronological_order"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/about">
+
+        <PreferenceScreen android:title="@string/intro">
+            <intent android:action="com.adrastel.niviel.Introduction"/>
+        </PreferenceScreen>
+
+        <com.adrastel.niviel.preferences.LicensePreference android:title="@string/licenses"/>
+    </PreferenceCategory>
+</PreferenceScreen>

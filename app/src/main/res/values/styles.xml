@@ -1,0 +1,71 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:textColorSecondary">@color/textColorSecondary</item>
+        <item name="colorPrimaryLight">@color/colorPrimaryLight</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="fabVisible">false</item>
+        <item name="fabIcon">@drawable/ic_star_white</item>
+        <item name="toolbarTitle">@string/app_name</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.Preferences" parent="AppTheme.NoActionBar">
+        <item name="toolbarTitle">@string/settings</item>
+        <item name="fabVisible">true</item>
+        <item name="colorPrimary">@color/blue_grey_500</item>
+        <item name="colorPrimaryDark">@color/blue_grey_700</item>
+    </style>
+
+    <style name="AppTheme.Records" parent="AppTheme.NoActionBar">
+        <item name="fabVisible">true</item>
+        <item name="toolbarTitle">@string/records</item>
+    </style>
+
+    <style name="AppTheme.History" parent="AppTheme.NoActionBar">
+        <item name="toolbarTitle">@string/history</item>
+    </style>
+
+    <style name="AppTheme.Ranking" parent="AppTheme.NoActionBar">
+        <item name="toolbarTitle">@string/ranking</item>
+        <item name="colorPrimary">@color/teal_500</item>
+        <item name="colorPrimaryDark">@color/teal_700</item>
+    </style>
+
+    <style name="AppTheme.Followers" parent="AppTheme.NoActionBar">
+        <item name="toolbarTitle">@string/followers</item>
+        <item name="colorPrimary">@color/green_700</item>
+        <item name="colorPrimaryDark">@color/green_900</item>
+    </style>
+
+    <style name="AppTheme.Profile" parent="AppTheme.NoActionBar">
+        <item name="toolbarTitle">@string/profile</item>
+        <item name="fabIcon">@drawable/ic_add</item>
+    </style>
+
+    <style name="AppTheme.Explore" parent="AppTheme.NoActionBar">
+        <item name="toolbarTitle">@string/explore</item>
+        <item name="fabIcon">@drawable/ic_add</item>
+    </style>
+
+    <style name="AppTheme.Competitions" parent="AppTheme.NoActionBar">
+        <item name="toolbarTitle">@string/competitions</item>
+        <item name="colorPrimary">@color/red_500</item>
+        <item name="colorPrimaryDark">@color/red_700</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+
+</resources>

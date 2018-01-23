@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/switch_cube"
+        android:title="@string/switch_cube"
+        android:icon="@drawable/ic_swap"
+        android:orderInCategory="50"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/switch_country"
+        android:title="@string/switch_country"
+        android:icon="@drawable/ic_flag"
+        android:orderInCategory="60"
+        app:showAsAction="ifRoom"/>
+
+</menu>
