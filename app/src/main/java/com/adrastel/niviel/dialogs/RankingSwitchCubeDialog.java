@@ -89,7 +89,7 @@ public class RankingSwitchCubeDialog extends DialogFragment {
 
         if(dialog != null) {
 
-            if(position == 4 || position == 15 || position == 16 || position == 17) {
+            if(position == 15 || position == 16 || position == 17) {
                 dialog.getButton(DialogInterface.BUTTON_NEUTRAL).setVisibility(View.INVISIBLE);
             }
 
