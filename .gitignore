@@ -2,9 +2,10 @@
 *.jks
 .gradle
 /local.properties
-/.idea/workspace.xml
-/.idea/libraries
+.idea/
 .DS_Store
 /build
 /captures
+app/build
+build
 .externalNativeBuild
