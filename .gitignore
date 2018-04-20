@@ -3,6 +3,8 @@
 .gradle
 /local.properties
 .idea/
+releases/
+logos/
 .DS_Store
 /build
 /captures
