@@ -210,10 +210,10 @@ public class CheckRecordService extends Service {
 
                 // More details
                 Intent moreDetails = new Intent(this, NotificationActivity.class);
-                moreDetails.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+                moreDetails.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 moreDetails.putExtra(NotificationActivity.CONTENT, toHtmlText(oldNewRecords));
                 moreDetails.putExtra(NotificationActivity.NAME, getString(R.string.two_infos, follower.name(), follower.wca_id()));
-                PendingIntent moreDetailsAction = PendingIntent.getActivity(this, 0, moreDetails, PendingIntent.FLAG_UPDATE_CURRENT);
+                PendingIntent moreDetailsAction = PendingIntent.getActivity(this, 0, moreDetails, PendingIntent.FLAG_CANCEL_CURRENT);
 
                 // Share
                 Intent share = new Intent(Intent.ACTION_SEND);
